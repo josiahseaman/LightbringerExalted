@@ -11,7 +11,8 @@ def save_new_instance(initialized_form, request):
     if request.is_ajax():
         msg = {'pk': model_instance.pk, 'title': str(model_instance), 'model': model_title, 'status': 'success'}
         return HttpResponse(json.dumps(msg), content_type="application/json")
-    return redirect('/Charm/%s/%i/' % (model_title, model_instance.pk))  # redirect to edit URL
+    # return redirect('/%s/%i/' % (model_title, model_instance.pk))  # redirect to edit URL
+    return redirect('/Charm/new/')
 
 
 def new_form(request, initialized_form, context):
