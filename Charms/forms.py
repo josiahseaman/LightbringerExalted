@@ -6,3 +6,4 @@ from Charms.models import Charm
 class CharmForm(ModelForm):
     class Meta:
         model = Charm
+        excluded = []

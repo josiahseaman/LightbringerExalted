@@ -16,10 +16,10 @@ def save_new_instance(initialized_form, request):
 def new_form(request, initialized_form, context):
     if initialized_form.is_valid():
         return save_new_instance(initialized_form, request)
-    return render(request, 'ScenarioCreator/new.html', context)  # render in validation error messages
+    return render(request, 'Charms/new.html', context)  # render in validation error messages
 
 
 def new_charm(request):
     initialized_form = CharmForm(request.POST or None)
-    context = {}
+    context = {'title': 'Describe a Charm with Traits'}
     return new_form(request, initialized_form, context)
