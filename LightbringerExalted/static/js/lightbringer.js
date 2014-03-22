@@ -8,15 +8,14 @@ $(function(){
         var controller = '[name=' + $(this).attr('data-toggle-controller') + ']'
         var hide_target = $(this).parents('.form-group')
         var disabled_value = $(this).attr('data-disabled-value') || 'True'
+        hide_target.hide()
         $('body').on('change', controller, function(){
-            console.log($(this).val(), disabled_value, hide_target)
             if($(this).val() == disabled_value){
                 hide_target.hide()
             }else{
                 hide_target.show()
             }
         })
-        $(controller).trigger('change')
     })
 })
 

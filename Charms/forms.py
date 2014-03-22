@@ -3,7 +3,7 @@ __author__ = 'Josiah Seaman'
 from crispy_forms.helper import FormHelper
 from floppyforms import ModelForm, Select, TextInput
 from Charms.models import Charm
-from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit
+from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit, Field
 from crispy_forms.bootstrap import InlineRadios
 
 
@@ -29,7 +29,7 @@ class CharmForm(ModelForm):
             InlineRadios('magnitude'),
             InlineRadios('dice_bonus'),
             InlineRadios('negation'),
-            'negation_detail',
+            Field('negation_detail', data_toggle_controller='negation', data_disabled_value='0'),
             InlineRadios('unnatural_mental_influence'),
             InlineRadios('extra_willpower_to_resist',
                          data_toggle_controller='unnatural_mental_influence',
@@ -46,5 +46,3 @@ class CharmForm(ModelForm):
     class Meta:
         model = Charm
         excluded = []
-        widgets = {'negation_detail': TextInput(attrs={'data-toggle-controller': 'negation',
-                                                        'data-disabled-value': '0'}),}
