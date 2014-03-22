@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'floppyforms',
     'Charms',
 )
@@ -64,6 +65,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 ROOT_URLCONF = 'LightbringerExalted.urls'
 
 WSGI_APPLICATION = 'LightbringerExalted.wsgi.application'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 # Database
