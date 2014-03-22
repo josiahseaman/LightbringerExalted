@@ -7,15 +7,17 @@ from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit, Field
 from crispy_forms.bootstrap import InlineRadios, Accordion, AccordionGroup
 
 
-class Button_Array(Select):
-    template_name = 'floppyforms/button_array.html'
-    attrs = {0: "btn btn-default",
-             1: "btn btn-primary",
-             2: "btn btn-success",
-             3: "btn btn-info",
-             -1: "btn btn-warning",
-             -2: "btn btn-danger"}
+class ButtonArray(InlineRadios):
+    def __init__(self, field_name,):
+        return super(InlineRadios, self).__init__(field_name, template='floppyforms/radioselect_inline.html',)
 
+
+# attrs = {'button0': "btn btn-default",
+#          'button1': "btn btn-primary",
+#          'button2': "btn btn-success",
+#          'button3': "btn btn-info",
+#          'button-1': "btn btn-warning",
+#          'button-2': "btn btn-danger"}
 
 class CharmForm(ModelForm):
     def __init__(self, *args, **kwargs):
@@ -27,23 +29,23 @@ class CharmForm(ModelForm):
             'name',
             'ability',
             'scope',
-            InlineRadios('scope_power'),
-            InlineRadios('duration'),
-            InlineRadios('magnitude'),
-            InlineRadios('dice_bonus'),
-            InlineRadios('negation'),
+            ButtonArray('scope_power'),
+            ButtonArray('duration'),
+            ButtonArray('magnitude'),
+            ButtonArray('dice_bonus'),
+            ButtonArray('negation'),
             Field('negation_detail', data_toggle_controller='negation', data_disabled_value='0'),
-            InlineRadios('unnatural_mental_influence'),
+            ButtonArray('unnatural_mental_influence'),
             InlineRadios('extra_willpower_to_resist',
                          data_toggle_controller='unnatural_mental_influence',
                          data_disabled_value='0'),
-            InlineRadios('speed_boost'),
+            ButtonArray('speed_boost'),
             Accordion(
                 AccordionGroup('Other Traits',
-                    InlineRadios('weakness'),
-                    InlineRadios('narrative_benefit'),
-                    InlineRadios('ally_buff'),
-                    InlineRadios('counterattack'),
+                    ButtonArray('weakness'),
+                    ButtonArray('narrative_benefit'),
+                    ButtonArray('ally_buff'),
+                    ButtonArray('counterattack'),
                     css_class='collapse'
             )),
             ButtonHolder(Submit('submit', 'Submit', css_class='button white'))
