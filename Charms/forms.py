@@ -21,17 +21,22 @@ class CharmForm(ModelForm):
     def __init__(self, *args, **kwargs):
         self.helper = FormHelper()
         self.helper.layout = Layout(
+            'name',
+            'ability',
+            'scope',
             InlineRadios('scope_power'),
             InlineRadios('duration'),
             InlineRadios('magnitude'),
             InlineRadios('dice_bonus'),
-            InlineRadios('ally_buff'),
             InlineRadios('negation'),
+            'negation_detail',
             InlineRadios('speed_boost'),
             InlineRadios('unnatural_mental_influence'),
             InlineRadios('extra_willpower_to_resist'),
+            #Other traits
             InlineRadios('weakness'),
             InlineRadios('narrative_benefit'),
+            InlineRadios('ally_buff'),
             InlineRadios('counterattack'),
             ButtonHolder(Submit('submit', 'Submit', css_class='button white'))
         )
