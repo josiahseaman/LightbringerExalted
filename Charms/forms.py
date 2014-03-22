@@ -1,6 +1,6 @@
-from crispy_forms.helper import FormHelper
-
+"""As a style note, we're going for big and round buttons.  You should be able to use the UI with your fist."""
 __author__ = 'Josiah Seaman'
+from crispy_forms.helper import FormHelper
 from floppyforms import ModelForm, Select
 from Charms.models import Charm
 from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit
@@ -30,8 +30,8 @@ class CharmForm(ModelForm):
             InlineRadios('dice_bonus'),
             InlineRadios('negation'),
             'negation_detail',
-            InlineRadios('speed_boost'),
             InlineRadios('unnatural_mental_influence'),
+            InlineRadios('speed_boost'),
             InlineRadios('extra_willpower_to_resist'),
             #Other traits
             InlineRadios('weakness'),

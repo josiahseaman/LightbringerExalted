@@ -32,5 +32,5 @@ class Charm(models.Model):
     narrative_benefit = models.IntegerField(default=0, choices=choiceList(0, 1, 2),
                                             help_text="modifiers that don't fit within the usual system (Ghost-Eating)")
     ally_buff = models.IntegerField(default=0, choices=choiceList('Self', 'Ally gets Charm Benefits', 'Gain Supernatural Powers'))
-    counterattack = models.IntegerField(default=0, choices=((0, 'Normal'), (1, 'Defensive Bonus'), (2, 'Counterattack')),
+    counterattack = models.IntegerField(default=0, choices=((0, 'Normal'), (1, '+1 success per attack received'), (2, 'Counterattack')),
                                         help_text='Enables a DV 0 attack on the attacker when your turn comes up')

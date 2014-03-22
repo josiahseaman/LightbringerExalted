@@ -71,7 +71,6 @@ body>section {
     color: #007700;
 }
 
-textarea {
-    width: 400px;
-    height: 70px;
+textarea.form-control {
+    height: 40px;
 }
