@@ -29,7 +29,6 @@ class Charm(models.Model):
     weakness = models.IntegerField(default=0, choices=((0, 'None'),
                                                        (-1, 'Charm is easy to render Ineffective or Hard to Invoke  (Easily Overlooked, Immanent Glory)'),
                                                        (-2, 'Charm constrains the characters Available Actions (Bloodthirsty Sword Dancer)')))
-    weakness_detail = models.CharField(max_length=255, blank=True, null=True)
     narrative_benefit = models.IntegerField(default=0, choices=choiceList(0, 1, 2),
                                             help_text="modifiers that don't fit within the usual system (Ghost-Eating)")
     ally_buff = models.IntegerField(default=0, choices=choiceList('Self', 'Ally gets Charm Benefits', 'Gain Supernatural Powers'))

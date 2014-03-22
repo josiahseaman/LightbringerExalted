@@ -8,8 +8,11 @@ from crispy_forms.bootstrap import InlineRadios, Accordion, AccordionGroup, Inli
 
 
 class ButtonArray(InlineRadios):
-    def __init__(self, field_name,):
-        return super(InlineRadios, self).__init__(field_name, template='floppyforms/radioselect_inline.html',)
+    def __init__(self, field_name, kwargs=None):
+        if not kwargs:
+            kwargs = {}
+        kwargs['template'] = 'floppyforms/radioselect_inline.html'
+        return super(InlineRadios, self).__init__(field_name, **kwargs)
 
 
 # attrs = {'button0': "btn btn-default",
@@ -43,7 +46,6 @@ class CharmForm(ModelForm):
             Accordion(
                 AccordionGroup('Other Traits',
                     ButtonArray('weakness'),
-                    Field('weakness_detail', data_toggle_controller='weakness', data_disabled_value='0'),
                     ButtonArray('narrative_benefit'),
                     ButtonArray('ally_buff'),
                     ButtonArray('counterattack'),
