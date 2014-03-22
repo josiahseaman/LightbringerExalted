@@ -19,7 +19,6 @@ class Charm(models.Model):
     negation = models.IntegerField(default=0, choices=choiceList('None', 'Negate Penalties', 'Negate Requirement', 'Negate Normal Defense'))
     negation_detail = models.CharField(max_length=255, blank=True, null=True)
     speed_boost = models.CharField(max_length=255, default='None', choices=doubleChoices('None', 'Simple ⇒ Reflexive', 'Dramatic Action ⇒ Simple', 'Days ⇒ Dramatic Action', 'Months ⇒ Days'))
-       # TODO: get essence cost of speed_boost
     unnatural_mental_influence = models.IntegerField(default=0,
                                                      choices=choiceList('None', 'Compulsion: Target resists w/ 1WP',
                                                                         'Intimacy: Target resists w/ 3WP (1wp to activate)',
@@ -34,3 +33,11 @@ class Charm(models.Model):
     ally_buff = models.IntegerField(default=0, choices=choiceList('Self', 'Ally gets Charm Benefits', 'Gain Supernatural Powers'))
     counterattack = models.IntegerField(default=0, choices=((0, 'Normal'), (1, '+1 success per attack received'), (2, 'Counterattack')),
                                         help_text='Enables a DV 0 attack on the attacker when your turn comes up')
+    #Keywords
+    keywords = models.CharField(max_length=255, default='',
+                                choices=doubleChoices('Crippling', 'Form-type', 'Holy', 'Knockback',
+                                                       'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness',
+                                                       'Touch', 'Training'))
+    #  'Stackable', only had 6 uses in the core book. 1 was unclear, 2 were unnecessary and the remainder could be modeled by 5x targets
+
+

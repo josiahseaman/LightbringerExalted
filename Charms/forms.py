@@ -1,10 +1,10 @@
 """As a style note, we're going for big and round buttons.  You should be able to use the UI with your fist."""
 __author__ = 'Josiah Seaman'
 from crispy_forms.helper import FormHelper
-from floppyforms import ModelForm, Select
+from floppyforms import ModelForm, Select, SelectMultiple, CheckboxSelectMultiple
 from Charms.models import Charm
 from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit, Field
-from crispy_forms.bootstrap import InlineRadios, Accordion, AccordionGroup
+from crispy_forms.bootstrap import InlineRadios, Accordion, AccordionGroup, InlineCheckboxes
 
 
 class ButtonArray(InlineRadios):
@@ -46,6 +46,7 @@ class CharmForm(ModelForm):
                     ButtonArray('narrative_benefit'),
                     ButtonArray('ally_buff'),
                     ButtonArray('counterattack'),
+                    InlineCheckboxes('keywords'),
                     css_class='collapse'
             )),
             ButtonHolder(Submit('submit', 'Submit', css_class='button white'))
