@@ -1,7 +1,7 @@
 """As a style note, we're going for big and round buttons.  You should be able to use the UI with your fist."""
 __author__ = 'Josiah Seaman'
 from crispy_forms.helper import FormHelper
-from floppyforms import ModelForm, Select
+from floppyforms import ModelForm, Select, TextInput
 from Charms.models import Charm
 from crispy_forms.layout import Layout, Fieldset, ButtonHolder, Submit
 from crispy_forms.bootstrap import InlineRadios
@@ -31,8 +31,10 @@ class CharmForm(ModelForm):
             InlineRadios('negation'),
             'negation_detail',
             InlineRadios('unnatural_mental_influence'),
+            InlineRadios('extra_willpower_to_resist',
+                         data_toggle_controller='unnatural_mental_influence',
+                         data_disabled_value='0'),
             InlineRadios('speed_boost'),
-            InlineRadios('extra_willpower_to_resist'),
             #Other traits
             InlineRadios('weakness'),
             InlineRadios('narrative_benefit'),
@@ -44,3 +46,5 @@ class CharmForm(ModelForm):
     class Meta:
         model = Charm
         excluded = []
+        widgets = {'negation_detail': TextInput(attrs={'data-toggle-controller': 'negation',
+                                                        'data-disabled-value': '0'}),}

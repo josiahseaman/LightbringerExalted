@@ -4,6 +4,20 @@ $(function(){
         var model = $selector.attr('name'); // field name
         modelModal.show(model, $selector);
     })
+    $('[data-toggle-controller]').each(function(){
+        var controller = '[name=' + $(this).attr('data-toggle-controller') + ']'
+        var hide_target = $(this).parents('.form-group')
+        var disabled_value = $(this).attr('data-disabled-value') || 'True'
+        $('body').on('change', controller, function(){
+            console.log($(this).val(), disabled_value, hide_target)
+            if($(this).val() == disabled_value){
+                hide_target.hide()
+            }else{
+                hide_target.show()
+            }
+        })
+        $(controller).trigger('change')
+    })
 })
 
 var modelModal = {
