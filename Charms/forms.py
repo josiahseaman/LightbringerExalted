@@ -43,6 +43,7 @@ class CharmForm(ModelForm):
             Accordion(
                 AccordionGroup('Other Traits',
                     ButtonArray('weakness'),
+                    Field('weakness_detail', data_toggle_controller='weakness', data_disabled_value='0'),
                     ButtonArray('narrative_benefit'),
                     ButtonArray('ally_buff'),
                     ButtonArray('counterattack'),
