@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="LordVarys" repositoryPrintName="&quot;Lord Varys&quot;">
+  <Description>
+    <CharacterName><![CDATA["Lord Varys"]]></CharacterName>
+    <Player><![CDATA[Graham]]></Player>
+    <Concept><![CDATA[Master of Secrets]]></Concept>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA["Lord Varys"]]></CharacterName>
+    <Player><![CDATA[Graham]]></Player>
+    <Concept><![CDATA[Master of Secrets]]></Concept>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Night"/>
+      <Motivation><![CDATA[Know all the secrets of the West]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="4"/>
+    <Willpower creationValue="7"/>
+    <Virtues>
+      <Compassion creationValue="1"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="4"/>
+      <Valor creationValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="3"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="3"/>
+        <Manipulation creationValue="5"/>
+        <Appearance creationValue="4"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="5"/>
+        <Intelligence creationValue="3"/>
+        <Wits creationValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="5" favored="true"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="5"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="0"/>
+      <Resistance creationValue="0"/>
+      <Survival creationValue="0"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="5" favored="true"/>
+      <Lore creationValue="0"/>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="3"/>
+      <Athletics creationValue="0"/>
+      <Awareness creationValue="5"/>
+      <Dodge creationValue="3"/>
+      <Larceny creationValue="5"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="0"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Signet of Whispered Secrets]]></Description>
+      </Background>
+      <Background creationValue="4"><![CDATA[Artifact]]>
+        <Description><![CDATA[Venom's Tail (Dagger)]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Awareness" type="Solar">
+        <Charm name="Solar.2ndExcellency.Awareness" experienceLearned="false"/>
+        <Charm name="Solar.InescapableEyeOfTheSun" experienceLearned="false"/>
+        <Charm name="Solar.SurpriseAnticipationMethod" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Integrity" type="Solar">
+        <Charm name="Solar.Integrity-PotectingPrana" experienceLearned="false"/>
+        <Charm name="Solar.RighteousLionDefense" experienceLearned="false">
+          <Special>
+            <LearnCount creationValue="1"/>
+          </Special>
+        </Charm>
+      </CharmGroup>
+      <CharmGroup name="Investigation" type="Solar">
+        <Charm name="Solar.2ndExcellency.Investigation" experienceLearned="false"/>
+        <Charm name="Solar.Courtier'sEyeTechnique" experienceLearned="false"/>
+        <Charm name="Solar.CraftyObservationMethod" experienceLearned="false"/>
+        <Charm name="Solar.IrresistibleQuestioningTechnique" experienceLearned="false"/>
+        <Charm name="Solar.Judge'sEarTechnique" experienceLearned="false"/>
+        <Charm name="Solar.KnowSoul'sPrice" experienceLearned="false"/>
+        <Charm name="Solar.LegacyDetectingGlance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Larceny" type="Solar">
+        <Charm name="Solar.2ndExcellency.Larceny" experienceLearned="false"/>
+        <Charm name="Solar.FlawlesslyImpenetrableDisguise" experienceLearned="false"/>
+        <Charm name="Solar.PerfectMirror" experienceLearned="false"/>
+        <Charm name="Solar.VileAnathemaShroud" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="MartialArts" type="Solar">
+        <Charm name="Solar.2ndExcellency.MartialArts" experienceLearned="false"/>
+        <Charm name="Solar.OrichalcumConditioning" experienceLearned="false"/>
+        <Charm name="Solar.RefusalSutra" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.Spirit-DetectingGlance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="ThroneShadowStyle" type="Sidereal">
+        <Charm name="Celestial.LotusEyeTactics" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies/>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics/>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

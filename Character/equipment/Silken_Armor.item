@@ -1,0 +1,37 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "hardnessByHealthType": {
+          "Lethal": 0,
+          "Aggravated": 0,
+          "Bashing": 0
+        },
+        "soakByHealthType": {
+          "Lethal": 5,
+          "Aggravated": 5,
+          "Bashing": 3
+        },
+        "fatigue": 0,
+        "mobilityPenalty": 0,
+        "name": "Armour",
+        "type": "Armour"
+      },
+      {
+        "attuneCost": 2,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "This unusual cloth is woven from the silk of Essence spiders (see p. 151) Although the fabric has\nthe weight and texture of silk and can be made into any garment that silk can, it is as strong as steel when struck. Even a light tunic, robe or cloak of the stuff makes effective armor. It is the clothing of choice for those who need its protection but cannot be seen wearing obvious armor.\nUnlike other forms of armor, silken armor stacks with other forms of armor. It cannot be detected as\nmagical without the use of some magic-sensing Charm such as All-Encompassing Sorcerers Sight. Silken\narmor also can be worn while performing Martial Arts styles that normally prohibit the use of armor. Anyone can wear silken armor, but it remains somewhat stiff unless attuned to the wearers Essence.  (-1 Mobility non-attuned)",
+  "name": "Silken Armor",
+  "collectionFactory": {},
+  "composition": "Compound",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 2
+  }
+}

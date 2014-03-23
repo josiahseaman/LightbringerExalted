@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="AlatutheForsaken" repositoryPrintName="Alatu the Forsaken">
+  <Description>
+    <CharacterName><![CDATA[Alatu the Forsaken]]></CharacterName>
+    <Player><![CDATA[Koko]]></Player>
+    <Characterization><![CDATA[gods...]]></Characterization>
+    <Concept><![CDATA[Necromancer...for Justice!]]></Concept>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Alatu the Forsaken]]></CharacterName>
+    <Player><![CDATA[Koko]]></Player>
+    <Characterization><![CDATA[gods...]]></Characterization>
+    <Concept><![CDATA[Necromancer...for Justice!]]></Concept>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Zenith"/>
+      <Motivation><![CDATA[Justice for the downtrodden]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="4"/>
+    <Willpower creationValue="7"/>
+    <Virtues>
+      <Compassion creationValue="2"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="3"/>
+      <Valor creationValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="5"/>
+        <Appearance creationValue="4"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="5"/>
+        <Intelligence creationValue="4"/>
+        <Wits creationValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="5" favored="true"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="1"/>
+      <Integrity creationValue="5"/>
+      <Performance creationValue="0">
+        <Specialty creationValue="2" name="Near the Dead"/>
+      </Performance>
+      <Presence creationValue="5"/>
+      <Resistance creationValue="3"/>
+      <Survival creationValue="5"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="3">
+          <traitName><![CDATA[All]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0"/>
+      <Lore creationValue="5" favored="true"/>
+      <Medicine creationValue="5" favored="true"/>
+      <Occult creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Necromancy"/>
+      </Occult>
+      <Athletics creationValue="2"/>
+      <Awareness creationValue="5" favored="true"/>
+      <Dodge creationValue="0"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="2"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="1"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="4"><![CDATA[Artifact]]>
+        <Description><![CDATA[Spire of Unrequitted Transgressions]]></Description>
+      </Background>
+      <Background creationValue="2"><![CDATA[Artifact]]>
+        <Description><![CDATA[Orb of Spiritual Deflection]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Resources]]></Background>
+      <Background creationValue="5"><![CDATA[Allies]]>
+        <Description><![CDATA[Fakharu]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Henchmen]]></Background>
+      <Background creationValue="1"><![CDATA[Influence]]>
+        <Description><![CDATA[Ikress]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Awareness" type="Solar">
+        <Charm name="Solar.SurpriseAnticipationMethod" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Melee" type="Solar">
+        <Charm name="Solar.2ndExcellency.Melee" experienceLearned="false"/>
+        <Charm name="Solar.BulwarkStance" experienceLearned="false"/>
+        <Charm name="Solar.CallBlade" experienceLearned="false"/>
+        <Charm name="Solar.DippingSwallowDefense" experienceLearned="false"/>
+        <Charm name="Solar.HeavenlyGuardianDefense" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.All-EncompassingSorcerer'sSight" experienceLearned="false"/>
+        <Charm name="Solar.LabyrinthCircleNecromancy" experienceLearned="false"/>
+        <Charm name="Solar.ShadowlandsCircleNecromancy" experienceLearned="false"/>
+        <Charm name="Solar.Spirit-DetectingGlance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Presence" type="Solar">
+        <Charm name="Solar.2ndExcellency.Presence" experienceLearned="false"/>
+        <Charm name="Solar.IrresistibleSalesmanSpirit" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells>
+      <Spell name="Shadowlands.MasterPuppeteersKnife" experienceLearned="false"/>
+      <Spell name="Shadowlands.RaisingSkeletalHorde" experienceLearned="false"/>
+      <Spell name="Labyrinth.IvoryRazorForest" experienceLearned="false"/>
+      <Spell name="Labyrinth.FuneraryMistedVessel" experienceLearned="false"/>
+      <Spell name="Labyrinth.OnyxCountermagic" experienceLearned="false"/>
+      <Spell name="Labyrinth.CallGreaterServitor" experienceLearned="false"/>
+      <Spell name="Labyrinth.HundredShadeBreath" experienceLearned="false"/>
+    </Spells>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="The underdog" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="The Undead" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="The Void (negative)" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Solar Circle" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Ikress" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Silver Prince (negative)" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics/>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

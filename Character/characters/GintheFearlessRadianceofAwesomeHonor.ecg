@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="GintheFearlessRadianceofAwesomeHonor" repositoryPrintName="Gin the Fearless Radiance of Awesome Honor">
+  <Description>
+    <CharacterName><![CDATA[Gin the Fearless Radiance of Awesome Honor]]></CharacterName>
+    <Player><![CDATA[Ben West]]></Player>
+    <PhysicalDescription><![CDATA[Tight Abs, Button Nose, Cute Butt, Gnarly Hairdo, Radical Eye Color, Righteous Biceps -- I look like I work out.]]></PhysicalDescription>
+    <Notes><![CDATA[Over-the-top, Rambunctious, risk-taker.]]></Notes>
+    <Concept><![CDATA[Kronk,The Boulder, Snotlout]]></Concept>
+    <Eyes><![CDATA[Blue]]></Eyes>
+    <Hair><![CDATA[Red]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tanned]]></Skin>
+    <Anima><![CDATA[Dolphin]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Gin the Fearless Radiance of Awesome Honor]]></CharacterName>
+    <Player><![CDATA[Ben West]]></Player>
+    <PhysicalDescription><![CDATA[Tight Abs, Button Nose, Cute Butt, Gnarly Hairdo, Radical Eye Color, Righteous Biceps -- I look like I work out.]]></PhysicalDescription>
+    <Notes><![CDATA[Over-the-top, Rambunctious, risk-taker.]]></Notes>
+    <Concept><![CDATA[Kronk,The Boulder, Snotlout]]></Concept>
+    <Eyes><![CDATA[Blue]]></Eyes>
+    <Hair><![CDATA[Red]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tanned]]></Skin>
+    <Anima><![CDATA[Dolphin]]></Anima>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="17">
+      <Caste type="Dawn"/>
+      <Motivation><![CDATA[Kill the things words are written about (Destroy Creatures of Lengend)]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="4"/>
+    <Willpower creationValue="5" experiencedValue="7"/>
+    <Virtues>
+      <Compassion creationValue="1" experiencedValue="2"/>
+      <Conviction creationValue="2"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="4"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="5"/>
+        <Dexterity creationValue="3" experiencedValue="4"/>
+        <Stamina creationValue="4" experiencedValue="4"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="3"/>
+        <Manipulation creationValue="3"/>
+        <Appearance creationValue="3"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="3"/>
+        <Intelligence creationValue="3"/>
+        <Wits creationValue="2" experiencedValue="2"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0" experiencedValue="4"/>
+      <MartialArts creationValue="0" experiencedValue="4"/>
+      <Melee creationValue="4">
+        <Specialty creationValue="3" experiencedValue="3" name="Non-person Objects"/>
+      </Melee>
+      <Thrown creationValue="2" experiencedValue="4"/>
+      <War creationValue="2" experiencedValue="5"/>
+      <Integrity creationValue="0" experiencedValue="4"/>
+      <Performance creationValue="0" experiencedValue="1"/>
+      <Presence creationValue="3" favored="true"/>
+      <Resistance creationValue="3" experiencedValue="4" favored="true"/>
+      <Survival creationValue="3" experiencedValue="4"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0" experiencedValue="4">
+          <traitName><![CDATA[Elemental]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0"/>
+      <Lore creationValue="0"/>
+      <Medicine creationValue="0" experiencedValue="4"/>
+      <Occult creationValue="0"/>
+      <Athletics creationValue="4" favored="true">
+        <Specialty creationValue="1" name="Jumping"/>
+      </Athletics>
+      <Awareness creationValue="3" experiencedValue="4" favored="true"/>
+      <Dodge creationValue="2" experiencedValue="4"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0" experiencedValue="4"/>
+      <Bureaucracy creationValue="0" experiencedValue="2"/>
+      <Linguistics creationValue="0"/>
+      <Ride creationValue="0" experiencedValue="4"/>
+      <Sail creationValue="2" experiencedValue="4" favored="true"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[(Superheavy Plate)]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Grand Goremal]]></Description>
+      </Background>
+      <Background creationValue="1"><![CDATA[Allies]]>
+        <Description><![CDATA[Royal Guard]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Bareni Tribes]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Sprit Courts (Meridian Isles)]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Thrown" type="Solar">
+        <Charm name="Solar.CallBladeThrown" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Athletics" type="Solar">
+        <Charm name="Solar.IncreasingStrengthExercise" experienceLearned="false"/>
+        <Charm name="Solar.SoaringCraneLeap" experienceLearned="false"/>
+        <Charm name="Solar.MonkeyLeapTechnique" experienceLearned="false"/>
+        <Charm name="Solar.LightningSpeed" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Athletics" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Resistance" type="Solar">
+        <Charm name="Solar.Ox-BodyTechnique" experienceLearned="false">
+          <Special>
+            <Categories>
+              <Category.-0 creationValue="1" experiencedValue="1"/>
+              <Category.-1x2 creationValue="0" experiencedValue="0"/>
+              <Category.-1-2x2 creationValue="0" experiencedValue="0"/>
+            </Categories>
+          </Special>
+        </Charm>
+        <Charm name="Solar.WhirlwindArmor-DonningPrana" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="War" type="Solar">
+        <Charm name="Solar.LegendaryWarriorCurriculum" experienceLearned="true"/>
+        <Charm name="Solar.2ndExcellency.War" experienceLearned="true"/>
+        <Charm name="Solar.Heroism-EncouragingPresence" experienceLearned="true"/>
+        <Charm name="Solar.TigerWarriorTrainingTechnique" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Melee" type="Solar">
+        <Charm name="Solar.PeonyBlossomAttack" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Melee" experienceLearned="false"/>
+        <Charm name="Solar.OneWeapon,TwoBlows" experienceLearned="false"/>
+        <Charm name="Solar.CallBlade" experienceLearned="false"/>
+        <Charm name="Solar.IronRaptorTechnique" experienceLearned="true"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="LordsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollErrata" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="44">
+        <Description><![CDATA[11, 13, 7, 13 + 6 = 50 xp (All to-date)]]></Description>
+      </Entry>
+      <Entry points="6">
+        <Description><![CDATA[2dot Background from Shindig]]></Description>
+      </Entry>
+      <Entry points="4">
+        <Description><![CDATA[5 - A new Friend]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[6 - Hand of Fire]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[somewhere we are missing 9exp]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Laenia Accords 4/13/2013]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[A woman Scorned]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[Down time (6 months)]]></Description>
+      </Entry>
+      <Entry points="11">
+        <Description><![CDATA[The Full Extent]]></Description>
+      </Entry>
+      <Entry points="20"/>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics/>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Awesomness" complete="true">
+              <Trait creationValue="2"/>
+            </Intimacy>
+            <Intimacy name="Bareni Tribes (loyalty)" complete="false">
+              <Trait creationValue="1"/>
+            </Intimacy>
+            <Intimacy name="Food" complete="true">
+              <Trait creationValue="2"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Superheavy Plate (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Grand Goremaul]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Close]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Wavecleaver Daiklave]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Close]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Valor"/>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

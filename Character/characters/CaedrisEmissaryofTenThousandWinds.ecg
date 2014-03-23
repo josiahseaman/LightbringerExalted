@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="CaedrisEmissaryofTenThousandWinds" repositoryPrintName="Caedris, Emissary of Ten Thousand Winds">
+  <Description>
+    <CharacterName><![CDATA[Caedris, Emissary of Ten Thousand Winds]]></CharacterName>
+    <Player><![CDATA[David]]></Player>
+    <Sex><![CDATA[M]]></Sex>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Caedris, Emissary of Ten Thousand Winds]]></CharacterName>
+    <Player><![CDATA[David]]></Player>
+    <Sex><![CDATA[M]]></Sex>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Eclipse"/>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="4"/>
+    <Willpower creationValue="7" experiencedValue="7"/>
+    <Virtues>
+      <Compassion creationValue="1" experiencedValue="1"/>
+      <Conviction creationValue="3"/>
+      <Temperance creationValue="3" experiencedValue="3"/>
+      <Valor creationValue="2" experiencedValue="2"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2"/>
+        <Dexterity creationValue="3"/>
+        <Stamina creationValue="2" experiencedValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="4"/>
+        <Manipulation creationValue="3"/>
+        <Appearance creationValue="4"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="2" experiencedValue="2"/>
+        <Intelligence creationValue="4" experiencedValue="4"/>
+        <Wits creationValue="3"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="5" favored="true"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="1"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="3" experiencedValue="3" favored="true"/>
+      <Resistance creationValue="0"/>
+      <Survival creationValue="0"/>
+      <Craft favored="true">
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0" experiencedValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="1" experiencedValue="4">
+          <traitName><![CDATA[Elemental]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0"/>
+      <Lore creationValue="5" favored="true">
+        <Specialty creationValue="2" experiencedValue="2" name="(Wyld Shaping Technique)"/>
+      </Lore>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="1" experiencedValue="1">
+        <Specialty creationValue="2" name="Spirits of the East"/>
+      </Occult>
+      <Athletics creationValue="1" experiencedValue="1"/>
+      <Awareness creationValue="2" experiencedValue="2" favored="true"/>
+      <Dodge creationValue="0" experiencedValue="0"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="5"/>
+      <Linguistics creationValue="1"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="3" experiencedValue="4"/>
+      <Socialize creationValue="2" experiencedValue="2"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="5"><![CDATA[Resources]]></Background>
+      <Background creationValue="2"><![CDATA[Influence]]>
+        <Description><![CDATA[Kingdom of Andraek]]></Description>
+      </Background>
+      <Background creationValue="1"><![CDATA[Allies]]>
+        <Description><![CDATA[Korian, Lesser god of Airships]]></Description>
+      </Background>
+      <Background creationValue="1" experiencedValue="2"><![CDATA[Artifact]]></Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Spirit Court in Meridian]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="5"><![CDATA[Manse]]>
+        <Description><![CDATA[Gem of Perfect Mobility]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="0"><![CDATA[Artifact]]>
+        <Description><![CDATA[Gloves of the Maker]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Bureaucracy" type="Solar">
+        <Charm name="Solar.2ndExcellency.Bureaucracy" experienceLearned="false"/>
+        <Charm name="Solar.HaloOfMinisterialDominion" experienceLearned="true"/>
+        <Charm name="Solar.ImmanentSolarGloryBureaucracy" experienceLearned="false">
+          <Special>
+            <LearnCount creationValue="1"/>
+          </Special>
+        </Charm>
+        <Charm name="Solar.SpeedWheels" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Craft" type="Solar">
+        <Charm name="Solar.2ndExcellency.Craft" experienceLearned="true"/>
+        <Charm name="Solar.CraftsmanNeedsNoTools" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Linguistics" type="Solar">
+        <Charm name="Solar.SagaciousReadingIntent" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Lore" type="Solar">
+        <Charm name="Solar.2ndExcellency.Lore" experienceLearned="false"/>
+        <Charm name="Solar.3rdExcellency.Lore" experienceLearned="false"/>
+        <Charm name="Solar.Chaos-RepellingPattern" experienceLearned="false"/>
+        <Charm name="Solar.Essence-LendingMethod" experienceLearned="true"/>
+        <Charm name="Solar.Order-AffirmingBlow" experienceLearned="true"/>
+        <Charm name="Solar.Will-BolsteringMethod" experienceLearned="true"/>
+        <Charm name="Solar.Wyld-ShapingTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Melee" type="Solar">
+        <Charm name="Solar.2ndExcellency.Melee" experienceLearned="false"/>
+        <Charm name="Solar.DippingSwallowDefense" experienceLearned="false"/>
+        <Charm name="Solar.FlawlessMirrorTrance" experienceLearned="true"/>
+        <Charm name="Solar.ReadyinEightDirectionsStance" experienceLearned="true"/>
+        <Charm name="Solar.SolarCounterattack" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Sail" type="Solar">
+        <Charm name="Solar.2ndExcellency.Sail" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Abyssals2nd" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="OadenolsCodex" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollErrata" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="11"/>
+      <Entry points="13"/>
+      <Entry points="7"/>
+      <Entry points="13"/>
+      <Entry points="6"/>
+      <Entry points="4">
+        <Description><![CDATA[End of Feb]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[March 2]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[March 16]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[April 13]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Apr 28]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[Downtime]]></Description>
+      </Entry>
+      <Entry points="11">
+        <Description><![CDATA[May 11]]></Description>
+      </Entry>
+      <Entry points="20">
+        <Description><![CDATA[May 26 Season Finale]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[June 9]]></Description>
+      </Entry>
+      <Entry points="8">
+        <Description><![CDATA[June 23]]></Description>
+      </Entry>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Wavecleaver Daiklave]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Close]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Reinforced Buff Jacket (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Kingdom of Aderelith" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Korian" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="The Party" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Mutants (negative)" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="&quot;The Faulty Wind&quot;" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="The Wyld" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+            <Intimacy name="Upholding bureaucratic order in Meridian Isles" complete="true">
+              <Trait creationValue="0" experiencedValue="3"/>
+            </Intimacy>
+            <Intimacy name="Honoring Eclipse Oaths" complete="true">
+              <Trait creationValue="0" experiencedValue="3"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[LowRealm]]></language>
+            <language><![CDATA[Foresttongue]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Conviction"/>
+            <Name><![CDATA[Heart of Flint]]></Name>
+            <Limit creationValue="0" experiencedValue="5"/>
+            <LimitBreak><![CDATA[no emotion. -2 on social rolls when face to face]]></LimitBreak>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

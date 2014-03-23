@@ -1,0 +1,11 @@
+{
+  "statsByRuleSet": {},
+  "description": "The Transceivers transmit voice between them at all times unless the bottom stone and pin is pulled from the cuff. Its range is fifty miles. They are made of thin wire of various magical and mundane materials (dependent on owner’s aesthetic preferences) and small beads of gemstone or other precious material.",
+  "name": "Meridian Wireless Transcievers ",
+  "collectionFactory": {},
+  "composition": "Compound",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 0
+  }
+}

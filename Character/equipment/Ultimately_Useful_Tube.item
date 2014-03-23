@@ -1,0 +1,67 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "accuracy": 1,
+        "damage": 4,
+        "damageTypeString": "Bashing",
+        "defence": 2,
+        "rate": 3,
+        "speed": 4,
+        "inflictsNoDamage": false,
+        "tags": [
+          "MartialArts"
+        ],
+        "minimumDamage": 0,
+        "name": "Stick",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 3,
+        "damage": 8,
+        "damageTypeString": "Bashing",
+        "defence": 2,
+        "rate": 2,
+        "speed": 6,
+        "inflictsNoDamage": false,
+        "tags": [
+          "TwoHanded",
+          "Reach"
+        ],
+        "minimumDamage": 0,
+        "name": "Staff",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 2,
+        "damage": 1,
+        "damageTypeString": "Lethal",
+        "range": 30,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "BowType",
+          "Piercing"
+        ],
+        "minimumDamage": 0,
+        "name": "Blowgun",
+        "type": "Ranged Weapon"
+      },
+      {
+        "attuneCost": 5,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "5 Attune. The ultimately useful tube is a foot-long bamboo tube. The lip of one end is faintly blue; the other\nlip is faintly red. It looks innocuous and requires fi ve motes commitment.\nAn attuned character has a wide variety of options. He can twist the tube to reveal fi ngerholes and\nan embouchure to play it as a fl ute. Twisted back, no observer can fi nd the holes. If used as a snorkel, the\nultimately useful tube keeps out waves and water spray and maintains an ideal length up to two yards while\nthe character changes depth. Used as a breathing tube in open air, the tube weakens airborne toxins, reducing\ntheir Damage ratings by half and their Toxicities by two. Twisting the tube the other way thins it to a halfinch\ndiameter, allowing the character to use it as a straw and likewise weaken toxins imbibed through it.\nThe character can fi ght with the ultimately useful tube as a stick. By pulling on the ends, he can\nlengthen it to one yard in length and use it as a blowgun. The tube creates its own darts, costing one mote\neach. Blowing a dart out the blue end coats it with a sleeping poison; the red end creates a fatal poison. Darts\nare made of Essence and fade away at the end of the scene. Finally, the character can lengthen the tube to\ntwo yards in length, making it a fi ghting staff. Even to Essence sight, the ultimately useful tube always looks\nlike a mundane implement, though the blowgun darts shine with Essence.\nThe fi rst stat line describes the stick form, the second a staff, the third a blowgun. The sleeping\npoison is Damage special; Toxicity 3M; Tolerance —/—; Penalty -0; a target failing to resist falls asleep for\n10 minutes or one hour, the character’s choice on creation of the poison. The lethal poison is arrow frog\nvenom (see Exalted, p. 131).\nAppropriately, the ultimately useful tube is very useful. No power is very great, but it has a myriad of uses.\nIts stick, staff and blowgun traits are improved over the norm, but not by much. The poisons are effective but not\nmind-blowing. It could be a high-end Artifact 2, but the sheer range of its capabilities and its concealable nature\nmake it a fair Artifact 3.",
+  "name": "Ultimately Useful Tube",
+  "composition": "None",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 3
+  }
+}

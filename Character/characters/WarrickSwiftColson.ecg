@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="WarrickSwiftColson" repositoryPrintName="Warrick (Swift) Colson">
+  <Description>
+    <CharacterName><![CDATA[Warrick (Swift) Colson]]></CharacterName>
+    <Player><![CDATA[Michael Oakland]]></Player>
+    <Characterization><![CDATA[Swift grew up in Laenia as a ghost in Suten Inat's palace. He learned to hunt for his food and use his quick mind to stay out of sight of the guards. He was fascinated with Inat's diplomatic skills and as such learned much from watching diplomatic meetings. Time waned his survival skill after Inat realized he existed and saw him as an asset with his ambitious goals. Many people of Laenia believe he was blessed by the Unconquered Sun in order to be everywhere at all times. Some say he would make an excellent thief for Laenia's underground.]]></Characterization>
+    <PhysicalDescription><![CDATA[Swift is thin and extremely dextrous. He is of average height and just above average beauty. He has regal, serious features. Dispite that fact, you can usually catch him smiling.]]></PhysicalDescription>
+    <Concept><![CDATA[Wandering Diplomat]]></Concept>
+    <Eyes><![CDATA[Green]]></Eyes>
+    <Hair><![CDATA[Brown]]></Hair>
+    <Sex><![CDATA[Male]]></Sex>
+    <Skin><![CDATA[White]]></Skin>
+    <Anima><![CDATA[Large silver lion made from powerful speeches Swift has given.]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Warrick (Swift) Colson]]></CharacterName>
+    <Player><![CDATA[Michael Oakland]]></Player>
+    <Characterization><![CDATA[Swift grew up in Laenia as a ghost in Suten Inat's palace. He learned to hunt for his food and use his quick mind to stay out of sight of the guards. He was fascinated with Inat's diplomatic skills and as such learned much from watching diplomatic meetings. Time waned his survival skill after Inat realized he existed and saw him as an asset with his ambitious goals. Many people of Laenia believe he was blessed by the Unconquered Sun in order to be everywhere at all times. Some say he would make an excellent thief for Laenia's underground.]]></Characterization>
+    <PhysicalDescription><![CDATA[Swift is thin and extremely dextrous. He is of average height and just above average beauty. He has regal, serious features. Dispite that fact, you can usually catch him smiling.]]></PhysicalDescription>
+    <Concept><![CDATA[Wandering Diplomat]]></Concept>
+    <Eyes><![CDATA[Green]]></Eyes>
+    <Hair><![CDATA[Brown]]></Hair>
+    <Sex><![CDATA[Male]]></Sex>
+    <Skin><![CDATA[White]]></Skin>
+    <Anima><![CDATA[Large silver lion made from powerful speeches Swift has given.]]></Anima>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="26">
+      <Caste type="Eclipse"/>
+      <Motivation><![CDATA[Negotiating a treaty with the fairfolk in order to increase the size of Creation.]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="3"/>
+    <Willpower creationValue="9" experiencedValue="9"/>
+    <Virtues>
+      <Compassion creationValue="3" experiencedValue="3"/>
+      <Conviction creationValue="2" experiencedValue="2"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="2"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="1" experiencedValue="2"/>
+        <Dexterity creationValue="5" experiencedValue="5"/>
+        <Stamina creationValue="1" experiencedValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="5" experiencedValue="5"/>
+        <Manipulation creationValue="1" experiencedValue="4"/>
+        <Appearance creationValue="3" experiencedValue="3"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="4" experiencedValue="4"/>
+        <Intelligence creationValue="3" experiencedValue="3"/>
+        <Wits creationValue="4" experiencedValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="5" experiencedValue="5" favored="true">
+        <Specialty creationValue="3" experiencedValue="3" name="Chakrams"/>
+      </Thrown>
+      <War creationValue="0"/>
+      <Integrity creationValue="0"/>
+      <Performance creationValue="5" experiencedValue="5" favored="true">
+        <Specialty creationValue="0" experiencedValue="2" name="Lying"/>
+      </Performance>
+      <Presence creationValue="4" experiencedValue="4" favored="true">
+        <Specialty creationValue="3" name="Negotiations"/>
+      </Presence>
+      <Resistance creationValue="0" experiencedValue="0"/>
+      <Survival creationValue="0" experiencedValue="0"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0" experiencedValue="4">
+          <traitName><![CDATA[Elemental]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0" experiencedValue="0"/>
+      <Lore creationValue="3" experiencedValue="4"/>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="5" experiencedValue="5" favored="true">
+        <Specialty creationValue="3" experiencedValue="3" name="Geomancy"/>
+      </Occult>
+      <Athletics creationValue="3" experiencedValue="3"/>
+      <Awareness creationValue="2" experiencedValue="3"/>
+      <Dodge creationValue="0" experiencedValue="4" favored="true"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="0" experiencedValue="0"/>
+      <Linguistics creationValue="2" experiencedValue="4"/>
+      <Ride creationValue="0" experiencedValue="0"/>
+      <Sail creationValue="0" experiencedValue="0"/>
+      <Socialize creationValue="3" experiencedValue="3"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="2" experiencedValue="2"><![CDATA[Manse]]>
+        <Description><![CDATA[Gem of Surface Thoughts]]></Description>
+      </Background>
+      <Background creationValue="3" experiencedValue="3"><![CDATA[Contacts]]>
+        <Description><![CDATA[Meridian Isles]]></Description>
+      </Background>
+      <Background creationValue="2" experiencedValue="3"><![CDATA[Followers]]></Background>
+      <Background creationValue="0" experiencedValue="0"><![CDATA[Backing]]>
+        <Description><![CDATA[Forest Spirit Courts]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="4"><![CDATA[Artifact]]>
+        <Description><![CDATA[Singing Staff]]></Description>
+      </Background>
+      <Background creationValue="0"><![CDATA[Manse]]>
+        <Description><![CDATA[Stone of Air Walking]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Linguistics" type="Solar">
+        <Charm name="Solar.PoeticExpressionStyle" experienceLearned="false"/>
+        <Charm name="Solar.SagaciousReadingIntent" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Thrown" type="Solar">
+        <Charm name="Solar.CascadeCuttingTerror" experienceLearned="false"/>
+        <Charm name="Solar.InfiniteMastery.Thrown" experienceLearned="false"/>
+        <Charm name="Solar.Triple-DistanceAttackTechnique" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Thrown" experienceLearned="true"/>
+        <Charm name="Solar.Observer-DeceivingAttack" experienceLearned="true"/>
+        <Charm name="Solar.FallingIcicleStrike" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Presence" type="Solar">
+        <Charm name="Solar.HypnoticTongueTechnique" experienceLearned="false"/>
+        <Charm name="Solar.1stExcellency.Presence" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Craft" type="Solar">
+        <Charm name="Solar.1stExcellency.Craft" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Dodge" type="Solar">
+        <Charm name="Solar.ShadowOverWater" experienceLearned="true"/>
+        <Charm name="Solar.SevenShadowEvasion" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Performance" type="Solar">
+        <Charm name="Solar.Heart-CompellingMethod" experienceLearned="false"/>
+        <Charm name="Solar.Husband-SeducingDemonDance" experienceLearned="false"/>
+        <Charm name="Solar.1stExcellency.Performance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.3rdExcellency.Occult" experienceLearned="true"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="LordsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Abyssals2nd" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="OadenolsCodex" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollErrata" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="24">
+        <Description><![CDATA[1.1-3 - Starting]]></Description>
+      </Entry>
+      <Entry points="12">
+        <Description><![CDATA[1.4- Shindig]]></Description>
+      </Entry>
+      <Entry points="6">
+        <Description><![CDATA[1.4 - Backing (Spirits Courts)]]></Description>
+      </Entry>
+      <Entry points="8">
+        <Description><![CDATA[1.3 - xp mistake]]></Description>
+      </Entry>
+      <Entry points="4">
+        <Description><![CDATA[1.5 - A New Friend]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[1.6 - Hand Of Fire]]></Description>
+      </Entry>
+      <Entry points="8">
+        <Description><![CDATA[1.7 - Hand Of Fire Part 2]]></Description>
+      </Entry>
+      <Entry points="14">
+        <Description><![CDATA[1.8 - Hot Springs Episode]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[1.9 - A Woman Scorned]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[1.9 - 6 Months of a Whole Lot of Nothing]]></Description>
+      </Entry>
+      <Entry points="11">
+        <Description><![CDATA[1.10 - The Full Extent]]></Description>
+      </Entry>
+      <Entry points="20">
+        <Description><![CDATA[1.11 - SEASON FINALE]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[2.1 - A Better World Prologue]]></Description>
+      </Entry>
+      <Entry points="8">
+        <Description><![CDATA[2.2 - A Better World Prologue]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[2.3 - Dark Eyes of The Jungle]]></Description>
+      </Entry>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Riverspeak]]></language>
+            <language><![CDATA[Foresttongue]]></language>
+            <language><![CDATA[LowRealm]]></language>
+            <language><![CDATA[OldRealm]]></language>
+            <language><![CDATA[Flametongue]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Sky-Cutter]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+            <printedStats><![CDATA[Ranged]]>
+              <specialty name="Chakrams" type="Thrown"/>
+            </printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[War Boomerang]]></templateId>
+            <printedStats><![CDATA[Ranged]]>
+              <specialty name="Chakrams" type="Thrown"/>
+            </printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Singing Staff]]></templateId>
+          </item>
+          <item>
+            <templateId><![CDATA[Chain Shirt (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Silken Armor]]></templateId>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Chakram]]></templateId>
+            <printedStats><![CDATA[Ranged]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Chakram]]></templateId>
+            <printedStats><![CDATA[Ranged]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Fear of Heights " complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="Wyld Hunt (Fear and Awe)" complete="false">
+              <Trait creationValue="0" experiencedValue="2"/>
+            </Intimacy>
+            <Intimacy name="Deepsoul" complete="false">
+              <Trait creationValue="0" experiencedValue="2"/>
+            </Intimacy>
+            <Intimacy name="Queen Inat (Positive)" complete="false">
+              <Trait creationValue="0" experiencedValue="2"/>
+            </Intimacy>
+            <Intimacy name="Laenia" complete="false">
+              <Trait creationValue="0" experiencedValue="2"/>
+            </Intimacy>
+            <Intimacy name="Meridian Isles" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="The Circle" complete="false">
+              <Trait creationValue="0" experiencedValue="2"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Compassion"/>
+            <Name><![CDATA[Passionate Martyrdom]]></Name>
+            <Limit creationValue="0"/>
+            <LimitBreak><![CDATA[Witnessing abuse of others]]></LimitBreak>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="BlindingStorm" repositoryPrintName="Blinding Storm">
+  <Description>
+    <CharacterName><![CDATA[Blinding Storm]]></CharacterName>
+    <Player><![CDATA[Marshall]]></Player>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Blinding Storm]]></CharacterName>
+    <Player><![CDATA[Marshall]]></Player>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Twilight"/>
+      <Motivation><![CDATA[Depose the Storm Spirit]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="4"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="2"/>
+      <Conviction creationValue="4"/>
+      <Temperance creationValue="5"/>
+      <Valor creationValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="3"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="4"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="5"/>
+        <Appearance creationValue="2"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="4"/>
+        <Intelligence creationValue="5"/>
+        <Wits creationValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="5" favored="true"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="5" favored="true"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="5" favored="true"/>
+      <Resistance creationValue="5" favored="true"/>
+      <Survival creationValue="3"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="5"/>
+      <Lore creationValue="5"/>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="5"/>
+      <Athletics creationValue="1"/>
+      <Awareness creationValue="5" favored="true"/>
+      <Dodge creationValue="0"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="3"/>
+      <Ride creationValue="2"/>
+      <Sail creationValue="3"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds/>
+    <Charms>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.CelestialCircleSorcery" experienceLearned="false"/>
+        <Charm name="Solar.TerrestrialCircleSorcery" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Resistance" type="Solar">
+        <Charm name="Solar.DurabilityOakMeditation" experienceLearned="false"/>
+        <Charm name="Solar.SpiritStrengthensSkin" experienceLearned="false"/>
+        <Charm name="Solar.IronSkinConcentration" experienceLearned="false"/>
+        <Charm name="Solar.AdamantSkinTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="MartialArts" type="Solar">
+        <Charm name="Solar.1stExcellency.MartialArts" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Investigation" type="Solar">
+        <Charm name="Solar.1stExcellency.Investigation" experienceLearned="false"/>
+        <Charm name="Solar.Judge'sEarTechnique" experienceLearned="false"/>
+        <Charm name="Solar.IrresistibleQuestioningTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells>
+      <Spell name="Terrestrial.LightningWhipSmitesWater" experienceLearned="false"/>
+      <Spell name="Celestial.MagmaKraken" experienceLearned="false"/>
+      <Spell name="Celestial.DolorousReflection" experienceLearned="false"/>
+      <Spell name="Celestial.RollingEarthCarpet" experienceLearned="false"/>
+      <Spell name="Celestial.TorrentialCascade" experienceLearned="false"/>
+      <Spell name="Terrestrial.PartingSeas" experienceLearned="false"/>
+      <Spell name="Terrestrial.Titan'sIcyBreath" experienceLearned="false"/>
+    </Spells>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Armor of Aquatic Puissance]]></templateId>
+            <printedStats><![CDATA[Armour]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics/>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Ancient School of Sorcery" complete="true">
+              <Trait creationValue="4"/>
+            </Intimacy>
+            <Intimacy name="Family unit" complete="true">
+              <Trait creationValue="4"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Temperance"/>
+            <Name><![CDATA[Hermit]]></Name>
+            <Limit creationValue="1"/>
+            <LimitBreak><![CDATA[People's Immaturity]]></LimitBreak>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

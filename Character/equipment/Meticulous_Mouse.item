@@ -1,0 +1,20 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "attuneCost": 10,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "This is one of the 7 components of the Aerial Guardian Deselowth. Each piece is a functioning Noble warstrider in its own right, and when combined forms a Royal Warstrider. \n\nSenses essence signatures anywhere on the Meridian Isle. Requires his Earth counterpart to sense underground.\n\nGrapple Vines - Can use Strength + Martial Arts to grapple up to 20 yards away. The vines can grapple groups of 5 people simultaneously without a flurry. Flurries increase the number of targets in increments of 5.\n\nStrength 14",
+  "name": "Meticulous Mouse",
+  "composition": "Variable",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 5
+  }
+}

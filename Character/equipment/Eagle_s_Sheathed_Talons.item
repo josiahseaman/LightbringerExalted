@@ -1,0 +1,46 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "attuneCost": 3,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      },
+      {
+        "accuracy": 2,
+        "damage": 2,
+        "damageTypeString": "Lethal",
+        "defence": 2,
+        "rate": 3,
+        "speed": 4,
+        "inflictsNoDamage": false,
+        "tags": [],
+        "minimumDamage": 1,
+        "name": "Close",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 0,
+        "damage": 0,
+        "damageTypeString": "Lethal",
+        "defence": 0,
+        "rate": 1,
+        "speed": 1,
+        "inflictsNoDamage": false,
+        "tags": [],
+        "minimumDamage": 1,
+        "name": "Close Combat",
+        "type": "Melee Weapon"
+      }
+    ]
+  },
+  "description": "This pair of innocuous looking hearthstone bracers posess a deadly secret. At will, an attuned user can extend eight inches of razor sharp blade made of pure Essence past their fingers.  If the blade hits an opponent\u0027s vitals, the sheer power of its Solar Essence disrupts their chakras, and only the most hardy opponents can resist the reset of their Essence flows. Such a disruption causes a (temporary) paralysis effect, equal to the Essence of the victim in (time variable). \n\n(see Joint Wounding Attack, Solar Thrown)",
+  "name": "Eagle\u0027s Sheathed Talons",
+  "composition": "None",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 3
+  }
+}

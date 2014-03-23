@@ -1,0 +1,122 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "hardnessByHealthType": {
+          "Lethal": 10,
+          "Aggravated": 10,
+          "Bashing": 10
+        },
+        "soakByHealthType": {
+          "Lethal": 16,
+          "Aggravated": 16,
+          "Bashing": 16
+        },
+        "fatigue": 1,
+        "mobilityPenalty": 0,
+        "name": "Starmetal Battle Armor",
+        "type": "Armour"
+      },
+      {
+        "accuracy": 2,
+        "damage": 15,
+        "damageTypeString": "Bashing",
+        "range": 60,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "Artillery",
+          "FlatDamage"
+        ],
+        "minimumDamage": 1,
+        "name": "Essence Cannon (Bashing)",
+        "type": "Ranged Weapon"
+      },
+      {
+        "attuneCost": 10,
+        "allowForeignAttunement": true,
+        "requireAttunement": true,
+        "name": "Artifact",
+        "type": "Artifact"
+      },
+      {
+        "DDVMod": 2,
+        "PDVMod": 2,
+        "MDDVMod": 0,
+        "MPDVMod": 0,
+        "MeleeSpeedMod": 0,
+        "MeleeAccuracyMod": 0,
+        "MeleeDamageMod": 0,
+        "MeleeRateMod": 0,
+        "RangedSpeedMod": 0,
+        "RangedAccuracyMod": 0,
+        "RangedDamageMod": 0,
+        "RangedRateMod": 0,
+        "JoinBattleMod": 0,
+        "JoinDebateMod": 0,
+        "JoinWarMod": 0,
+        "name": "Trait Modifying",
+        "type": "Trait Modifier"
+      },
+      {
+        "accuracy": 2,
+        "damage": 15,
+        "damageTypeString": "Lethal",
+        "defence": 1,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "MartialArts",
+          "Overwhelming",
+          "Piercing"
+        ],
+        "minimumDamage": 4,
+        "name": "Power Mace (Lethal)",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 2,
+        "damage": 15,
+        "damageTypeString": "Bashing",
+        "defence": 1,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "MartialArts",
+          "Overwhelming",
+          "Piercing"
+        ],
+        "minimumDamage": 4,
+        "name": "Power Mace (Bashing)",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 2,
+        "damage": 10,
+        "damageTypeString": "Lethal",
+        "range": 60,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "Artillery",
+          "FlatDamage"
+        ],
+        "minimumDamage": 1,
+        "name": "Essence Cannon (Lethal)",
+        "type": "Ranged Weapon"
+      }
+    ]
+  },
+  "description": "Starmetal Armor reduces minimum damage by 1 dice (minimum 1 dice)",
+  "name": "Starmetal Battle Armor",
+  "material": "Starmetal",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Resources",
+    "costValue": 5
+  }
+}

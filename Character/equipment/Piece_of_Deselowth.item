@@ -1,0 +1,37 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "hardnessByHealthType": {
+          "Lethal": 11,
+          "Aggravated": 11,
+          "Bashing": 11
+        },
+        "soakByHealthType": {
+          "Lethal": 22,
+          "Aggravated": 22,
+          "Bashing": 22
+        },
+        "fatigue": 4,
+        "mobilityPenalty": -4,
+        "name": "Armour",
+        "type": "Armour"
+      },
+      {
+        "attuneCost": 10,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "This is one of the 7 components of the Aerial Guardian Deselowth. Each piece is a functioning Noble warstrider in its own right, and when combined forms a Royal Warstrider. \n\nStrength 14",
+  "name": "Piece of Deselowth",
+  "collectionFactory": {},
+  "composition": "Variable",
+  "cost": {
+    "costType": "Resources",
+    "costValue": 0
+  }
+}

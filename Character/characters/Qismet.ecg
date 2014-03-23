@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="Qismet" repositoryPrintName="Qismet, the Veiled Eagle">
+  <Description>
+    <CharacterName><![CDATA[Qismet, the Veiled Eagle]]></CharacterName>
+    <Player><![CDATA[Rae]]></Player>
+    <Characterization><![CDATA[The best word to describe Qismet is stoic. Ever since Tris died, his words have become fewer and fewer. He prefers action. He occasionally snarks at his fellow Solars but it is always in a sense of camraderie ribbing. ]]></Characterization>
+    <PhysicalDescription><![CDATA[Average height, with medium brown skin, brown eyes and brown-black hair that would not be out of place in any Terrestrial Direction, Qismet is fairly unremarkable. He has fine even features, with high cheekbones, an aquiline nose, and a well formed, sensual mouth. A thin scar cuts through the left side of his lips and chin. He is muscular in the way of a person who works, hard, everyday, in the ropy fashion of sailors and gymnasts.]]></PhysicalDescription>
+    <Concept><![CDATA[Executioner of Corrupted Supernaturals.]]></Concept>
+    <Eyes><![CDATA[Brown]]></Eyes>
+    <Hair><![CDATA[Sable]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tanned]]></Skin>
+    <Anima><![CDATA[A ghostly suggestion of an eagle painted in silvers and deep black-violet that shadows his movements.]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Qismet, the Veiled Eagle]]></CharacterName>
+    <Player><![CDATA[Rae]]></Player>
+    <Characterization><![CDATA[The best word to describe Qismet is stoic. Ever since Tris died, his words have become fewer and fewer. He prefers action. He occasionally snarks at his fellow Solars but it is always in a sense of camraderie ribbing. ]]></Characterization>
+    <PhysicalDescription><![CDATA[Average height, with medium brown skin, brown eyes and brown-black hair that would not be out of place in any Terrestrial Direction, Qismet is fairly unremarkable. He has fine even features, with high cheekbones, an aquiline nose, and a well formed, sensual mouth. A thin scar cuts through the left side of his lips and chin. He is muscular in the way of a person who works, hard, everyday, in the ropy fashion of sailors and gymnasts.]]></PhysicalDescription>
+    <Concept><![CDATA[Executioner of Corrupted Supernaturals.]]></Concept>
+    <Eyes><![CDATA[Brown]]></Eyes>
+    <Hair><![CDATA[Sable]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tanned]]></Skin>
+    <Anima><![CDATA[A ghostly suggestion of an eagle painted in silvers and deep black-violet that shadows his movements.]]></Anima>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="27">
+      <Caste type="Night"/>
+      <Motivation><![CDATA[Cleanse the West of all supernaturals who abuse and prey on the innocent.]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="3"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="3"/>
+      <Valor creationValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="3"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="5"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="2"/>
+        <Appearance creationValue="5"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="5"/>
+        <Intelligence creationValue="3"/>
+        <Wits creationValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="5" favored="true">
+        <Specialty creationValue="2" name="Counterattack"/>
+      </Melee>
+      <Thrown creationValue="1"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="5" favored="true">
+        <Specialty creationValue="1" name="Cold/Stoicism"/>
+      </Integrity>
+      <Performance creationValue="0"/>
+      <Presence creationValue="2"/>
+      <Resistance creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Stoicism"/>
+      </Resistance>
+      <Survival creationValue="3"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Someone Doesn't Want Us to &quot;See&quot; This"/>
+      </Investigation>
+      <Lore creationValue="1"/>
+      <Medicine creationValue="1"/>
+      <Occult creationValue="3" favored="true"/>
+      <Athletics creationValue="5">
+        <Specialty creationValue="3" name="Parkour"/>
+      </Athletics>
+      <Awareness creationValue="5">
+        <Specialty creationValue="2" name="What Doesn't Belong"/>
+        <Specialty creationValue="1" name="Minor Details Tip Off"/>
+      </Awareness>
+      <Dodge creationValue="5">
+        <Specialty creationValue="2" name="Economy of Movement"/>
+        <Specialty creationValue="1" name="Blades"/>
+      </Dodge>
+      <Larceny creationValue="3"/>
+      <Stealth creationValue="5">
+        <Specialty creationValue="2" name="Blend With Others"/>
+        <Specialty creationValue="1" name="In Unexpected Places"/>
+      </Stealth>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="1"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="3"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Hidden Blades]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Resources]]></Background>
+      <Background creationValue="4"><![CDATA[Henchmen]]>
+        <Description><![CDATA[The Brotherhood of Assassins]]></Description>
+      </Background>
+      <Background creationValue="5"><![CDATA[Allies]]>
+        <Description><![CDATA[Fakharu]]></Description>
+      </Background>
+      <Background creationValue="4"><![CDATA[Artifact]]>
+        <Description><![CDATA[Warbird]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Athletics" type="Solar">
+        <Charm name="Solar.GracefulCraneStance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Awareness" type="Solar">
+        <Charm name="Solar.2ndExcellency.Awareness" experienceLearned="false"/>
+        <Charm name="Solar.KeenHearingandTouchTechnique" experienceLearned="false"/>
+        <Charm name="Solar.KeenSightTechnique" experienceLearned="false"/>
+        <Charm name="Solar.PanopticFusionDiscipline" experienceLearned="false"/>
+        <Charm name="Solar.SurpriseAnticipationMethod" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Dodge" type="Solar">
+        <Charm name="Solar.2ndExcellency.Dodge" experienceLearned="false"/>
+        <Charm name="Solar.LeapingDodgeMethod" experienceLearned="false"/>
+        <Charm name="Solar.ReflexSidestepTechnique" experienceLearned="false"/>
+        <Charm name="Solar.SevenShadowEvasion" experienceLearned="false"/>
+        <Charm name="Solar.ShadowOverWater" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Investigation" type="Solar">
+        <Charm name="Solar.2ndExcellency.Investigation" experienceLearned="false"/>
+        <Charm name="Solar.CraftyObservationMethod" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Melee" type="Solar">
+        <Charm name="Solar.HungryTigerTechnique" experienceLearned="false"/>
+        <Charm name="Solar.OneWeapon,TwoBlows" experienceLearned="false"/>
+        <Charm name="Solar.SunSwordConcentration" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.Spirit-CuttingAttack" experienceLearned="false"/>
+        <Charm name="Solar.Spirit-DetectingGlance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Stealth" type="Solar">
+        <Charm name="Solar.EasilyOverlookedPresenceMethod" experienceLearned="false"/>
+        <Charm name="Solar.MentalInvisibilityTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos>
+        <Combo>
+          <Charm name="Solar.OneWeapon,TwoBlows" type="Solar"/>
+          <Charm name="Solar.PanopticFusionDiscipline" type="Solar"/>
+          <Charm name="Solar.HungryTigerTechnique" type="Solar"/>
+        </Combo>
+        <Combo>
+          <Charm name="Solar.Spirit-CuttingAttack" type="Solar"/>
+          <Charm name="Solar.Spirit-DetectingGlance" type="Solar"/>
+        </Combo>
+        <Combo>
+          <Charm name="Solar.Spirit-CuttingAttack" type="Solar"/>
+          <Charm name="Solar.OneWeapon,TwoBlows" type="Solar"/>
+          <Charm name="Solar.PanopticFusionDiscipline" type="Solar"/>
+          <Charm name="Solar.HungryTigerTechnique" type="Solar"/>
+        </Combo>
+      </Combos>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Eagle's Sheathed Talons]]></templateId>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+            <printedStats><![CDATA[Close]]></printedStats>
+            <printedStats><![CDATA[Close Combat]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Warbird]]></templateId>
+            <customDescription><![CDATA[Qismet's Warbird Variant has a closed cockpit, with a canopy of adamant glass (WotLA pg 41)]]></customDescription>
+          </item>
+          <item>
+            <templateId><![CDATA[Reinforced Buff Jacket (Concealed)]]></templateId>
+            <printedStats><![CDATA[Armour]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies/>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Seatongue]]></language>
+            <language><![CDATA[Riverspeak]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Conviction"/>
+            <Name><![CDATA[Heart of Flint]]></Name>
+            <Limit creationValue="0"/>
+            <LimitBreak><![CDATA[When frustrated by the intemperate or childish nature of the world.]]></LimitBreak>
+            <Description><![CDATA[-2 all social rolls, pursuing efficiency at the cost of all else. if tempered, -2 social rolls in face to face only]]></Description>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

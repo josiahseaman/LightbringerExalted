@@ -1,0 +1,36 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "attuneCost": 6,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      },
+      {
+        "hardnessByHealthType": {
+          "Lethal": 0,
+          "Aggravated": 0,
+          "Bashing": 0
+        },
+        "soakByHealthType": {
+          "Lethal": 6,
+          "Aggravated": 6,
+          "Bashing": 8
+        },
+        "fatigue": 0,
+        "mobilityPenalty": 0,
+        "name": "Armour",
+        "type": "Armour"
+      }
+    ]
+  },
+  "description": "6 Attune. Everyman armor looks like a plain steel suit of lamellar armor. It functions similarly, offering the\nsame amount of protection, mobility penalty and fatigue. Before attunement, its only unique feature is\nnear indestructibility. Attuning it requires six motes, at which point its mobility penalty and fatigue drop\nto zero. While wearing the armor, an attuned character may spend three motes to refl exively change her\nappearance. The character can look like any human she imagines, in any dress, and the armor can look like\nany sort of armor (but provides a constant amount of soak). Mundane attempts to see through the disguise\nfail, but people with inhuman sensory acuity may succeed. Their attempts are made at +2 diffi culty on top\nof the character’s additional efforts to conceal her identity. The only restriction is that the disguise always\nincludes some form of evident armor.\nIn the event that a nonhuman wears everyman armor (such as a Fair Folk or beastman), that character\ncan change his appearance but not his species. A wolfman, for instance, could look like any wolfman, but\nnot a snakeman or human.\nThis is an effective power for any character who wishes to remain discreet or infi ltrate an enemy’s gang. It\nborrows mechanics from an Essence 2 Charm but costs less and has no limits (except species) on the identity a\ncharacter can choose to display. That armor must always be part of the disguise is no more than a two-dot drawback,\naccounting for the reduced attunement cost.",
+  "name": "Everyman Armor",
+  "composition": "Compound",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 3
+  }
+}

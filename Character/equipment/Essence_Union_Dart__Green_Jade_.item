@@ -1,0 +1,21 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "attuneCost": 2,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "2 Attune. Essence union darts come in black and green jade varieties. All can be thrown by hand or fi red from\na blowgun (treat as a thrown needle with a +1 accuracy; blowguns have a 30 yard Range). They require\ntwo motes to attune. When the character successfully hits a living target with the Essence union dart, the\ndart creates a mystical link between attacker and target.\nFor the rest of the scene, the dart’s user ignores cover, concealment and (his permanent Essence)\npoints of the target’s Dodge DV. This effect does not stack, but the character may affect multiple targets at\nonce. Green jade darts can affect any living and material target; black jade darts pass right through living\nmaterial creatures but strike immaterial living targets.\nEssence union darts provide a signifi cant advantage, especially against an opponent that depends on dodging.\nThis could be a three-dot artifact, and would were it consistent. But the advantage depends on hitting the target\nfi rst, and thrown darts can be lost (or taken) and are hard to use more than once per battle. This is a three-dot\ndrawback, dropping the iffy three-dot power down to a medium-low two-dot artifact, which accounts for the low\nattunement cost.?",
+  "name": "Essence Union Dart (Green Jade)",
+  "material": "Jade",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 2
+  }
+}

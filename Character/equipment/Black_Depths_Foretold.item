@@ -1,0 +1,49 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "accuracy": 3,
+        "damage": 4,
+        "damageTypeString": "Lethal",
+        "defence": 1,
+        "rate": 3,
+        "speed": 4,
+        "inflictsNoDamage": false,
+        "tags": [],
+        "minimumDamage": 0,
+        "name": "Normal",
+        "type": "Melee Weapon"
+      },
+      {
+        "accuracy": 3,
+        "damage": 4,
+        "damageTypeString": "Aggravated",
+        "defence": 1,
+        "rate": 3,
+        "speed": 4,
+        "inflictsNoDamage": false,
+        "tags": [
+          "Piercing"
+        ],
+        "minimumDamage": 0,
+        "name": "Spirit",
+        "type": "Melee Weapon"
+      },
+      {
+        "attuneCost": 6,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "6 Attune. Black Depths Foretold is a very sharp dagger that looks as though it were roughly chipped from solid\nblack jade. It is all one piece, and would cut the wielder as well as its victim were it not wrapped with tough\nleather, and even that needs replacement now and then. The weapon has the special quality of infl icting\naggravated damage on dematerialized spirits. Its other special quality is that anyone examining the weapon’s\nfate divines very clearly that the weapon is fated to slay the god of the Great Western Ocean.\nInfl icting aggravated damage on spirits is part of an Essence 3 Charm (Ghost-Eating Technique, Exalted,\np. 221), but that Charm does more than this weapon. That’s fi ne for balance, because the weapon has excellent\nstatistics and can pierce a spirit’s armor. It ends up being a high-advantage weapon against spirits and reasonable\nagainst everything else, but never overwhelming. Just right for Artifact 3.",
+  "name": "Black Depths Foretold",
+  "material": "Jade",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 3
+  }
+}

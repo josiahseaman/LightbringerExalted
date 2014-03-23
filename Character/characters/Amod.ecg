@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="Amod" repositoryPrintName="Amod Satsugin-sha">
+  <Description>
+    <CharacterName><![CDATA[Amod Satsugin-sha]]></CharacterName>
+    <Player><![CDATA[Bryan]]></Player>
+    <Anima><![CDATA[Half moon frozen over with Ice Crystals hanging from the tips.]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Amod Satsugin-sha]]></CharacterName>
+    <Player><![CDATA[Bryan]]></Player>
+    <Anima><![CDATA[Half moon frozen over with Ice Crystals hanging from the tips.]]></Anima>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Dawn"/>
+    </CharacterConcept>
+    <Essence creationValue="4"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="1"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="3"/>
+      <Valor creationValue="5"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="5"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="3"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="5"/>
+        <Appearance creationValue="2"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="5"/>
+        <Intelligence creationValue="4"/>
+        <Wits creationValue="3"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="5">
+        <Specialty creationValue="3" name="When angry"/>
+      </Melee>
+      <Thrown creationValue="5">
+        <Specialty creationValue="3" name="Ice Weapons"/>
+      </Thrown>
+      <War creationValue="0"/>
+      <Integrity creationValue="3"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="5">
+        <Specialty creationValue="3" name="When eye patch is dramatically taken off"/>
+      </Presence>
+      <Resistance creationValue="5" favored="true">
+        <Specialty creationValue="3" name="With undead in the area"/>
+      </Resistance>
+      <Survival creationValue="1"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="4"/>
+      <Lore creationValue="1"/>
+      <Medicine creationValue="1"/>
+      <Occult creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Undead"/>
+      </Occult>
+      <Athletics creationValue="4"/>
+      <Awareness creationValue="5" favored="true">
+        <Specialty creationValue="3" name="When eye patch is resting above right eye"/>
+      </Awareness>
+      <Dodge creationValue="5" favored="true">
+        <Specialty creationValue="3" name="When eye patch is on right eye"/>
+      </Dodge>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="5" favored="true">
+        <Specialty creationValue="3" name="While others nearby are socializing"/>
+      </Stealth>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="1"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="1"/>
+      <Socialize creationValue="2"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="2"><![CDATA[Artifact]]>
+        <Description><![CDATA[Essence Union Dart]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Black Depths Foretold]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Everyman Armor]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Ultimately Useful Tube]]></Description>
+      </Background>
+      <Background creationValue="4"><![CDATA[Contacts]]></Background>
+      <Background creationValue="5"><![CDATA[Allies]]>
+        <Description><![CDATA[Fakharu]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Mentor]]></Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Athletics" type="Solar">
+        <Charm name="Solar.GracefulCraneStance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Melee" type="Solar">
+        <Charm name="Solar.2ndExcellency.Melee" experienceLearned="false"/>
+        <Charm name="Solar.BulwarkStance" experienceLearned="false"/>
+        <Charm name="Solar.CallBlade" experienceLearned="false"/>
+        <Charm name="Solar.DippingSwallowDefense" experienceLearned="false"/>
+        <Charm name="Solar.HeavenlyGuardianDefense" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.CelestialCircleSorcery" experienceLearned="false"/>
+        <Charm name="Solar.Spirit-DetectingGlance" experienceLearned="false"/>
+        <Charm name="Solar.TerrestrialCircleSorcery" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Resistance" type="Solar">
+        <Charm name="Solar.DurabilityOakMeditation" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Stealth" type="Solar">
+        <Charm name="Solar.EasilyOverlookedPresenceMethod" experienceLearned="false"/>
+        <Charm name="Solar.MentalInvisibilityTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Thrown" type="Solar">
+        <Charm name="Solar.CallBladeThrown" experienceLearned="false"/>
+        <Charm name="Solar.CascadeCuttingTerror" experienceLearned="false"/>
+        <Charm name="Solar.Observer-DeceivingAttack" experienceLearned="false"/>
+        <Charm name="Solar.Triple-DistanceAttackTechnique" experienceLearned="false"/>
+        <Charm name="Solar.WindFullOfKnives" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells>
+      <Spell name="Celestial.SapphireCountermagic" experienceLearned="false"/>
+      <Spell name="Terrestrial.FlightBrilliantRaptor" experienceLearned="false"/>
+      <Spell name="Celestial.MagmaKraken" experienceLearned="false"/>
+      <Spell name="Terrestrial.InternalFlame" experienceLearned="false"/>
+      <Spell name="Celestial.GodForgedChampionWar" experienceLearned="false"/>
+    </Spells>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Ultimately Useful Tube]]></templateId>
+            <printedStats><![CDATA[Stick.Melee]]></printedStats>
+            <printedStats><![CDATA[Stick.MartialArts]]></printedStats>
+            <printedStats><![CDATA[Staff]]></printedStats>
+            <printedStats><![CDATA[Blowgun]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Essence Union Dart (Green Jade)]]></templateId>
+            <printedStats><![CDATA[Artifact.PartiallyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Black Depths Foretold]]></templateId>
+            <printedStats><![CDATA[Normal]]></printedStats>
+            <printedStats><![CDATA[Spirit]]></printedStats>
+            <printedStats><![CDATA[Artifact.PartiallyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Everyman Armor]]></templateId>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+            <printedStats><![CDATA[Armour]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="His mom (and dad)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="gods (negative)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Bureaucrats talking (negative)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="The Circle" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Ikress" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Silver Prince (negative)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Seatongue]]></language>
+            <language><![CDATA[LowRealm]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Valor"/>
+            <Name><![CDATA[Ice Age]]></Name>
+            <Limit creationValue="0"/>
+            <LimitBreak><![CDATA[The character is insulted, belittled, demeaned or deliberately frustrated.]]></LimitBreak>
+            <Description><![CDATA[Out of control, the character freezes and attempts to shatter everything in his immediate area. If it runs, he chases and destroys it in a frenzy. The character starts with the nearest hostile target and, after all hostiles are dead, continues to freeze the landscape until it is an Ice Landscape. ]]></Description>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

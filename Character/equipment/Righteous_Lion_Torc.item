@@ -1,0 +1,40 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "DDVMod": 0,
+        "PDVMod": 0,
+        "MDDVMod": 4,
+        "MPDVMod": 4,
+        "MeleeSpeedMod": 0,
+        "MeleeAccuracyMod": 0,
+        "MeleeDamageMod": 0,
+        "MeleeRateMod": 0,
+        "RangedSpeedMod": 0,
+        "RangedAccuracyMod": 0,
+        "RangedDamageMod": 0,
+        "RangedRateMod": 0,
+        "JoinBattleMod": 0,
+        "JoinDebateMod": 0,
+        "JoinWarMod": 0,
+        "name": "Trait Modifiers",
+        "type": "Trait Modifier"
+      },
+      {
+        "attuneCost": 2,
+        "allowForeignAttunement": true,
+        "requireAttunement": false,
+        "name": "Righteous Lion Torc",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "This artifact grants its wearer +2 to all derived Mental Defense Values and allows the wearer to treat one Intimacy as an additional Motivation.\n\nThis torc is a twisted length of white jade and gold, capped with dragon-head finials carved from essence-reactive blue crystal. Tiny glyphs for mental strength, stability and dedication are stamped along one of the twists.\n",
+  "name": "Righteous Lion Torc",
+  "collectionFactory": {},
+  "composition": "Variable",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 0
+  }
+}

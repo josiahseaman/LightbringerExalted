@@ -1,0 +1,31 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "hardnessByHealthType": {
+          "Lethal": 7,
+          "Aggravated": 7,
+          "Bashing": 7
+        },
+        "soakByHealthType": {
+          "Lethal": 11,
+          "Aggravated": 11,
+          "Bashing": 13
+        },
+        "fatigue": 1,
+        "mobilityPenalty": -2,
+        "name": "Armour",
+        "type": "Armour"
+      }
+    ]
+  },
+  "description": "Swim twice as fast",
+  "name": "Armor of Aquatic Puissance",
+  "collectionFactory": {},
+  "material": "Orichalcum",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 4
+  }
+}

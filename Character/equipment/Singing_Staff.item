@@ -1,0 +1,12 @@
+{
+  "statsByRuleSet": {},
+  "description": "Like a violin one can draw a bow across the staff to produce music. The earth responds to the music in kind. The user must make an (Essence + Performance) roll with the difficulty set by the magnitude or detail, in order to shape up to 100 cubic feet of earth within 100 yards of the user. GM may determine an action requires multiple rolls to complete.",
+  "name": "Singing Staff",
+  "collectionFactory": {},
+  "material": "Jade",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 4
+  }
+}

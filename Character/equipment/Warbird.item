@@ -1,0 +1,10 @@
+{
+  "statsByRuleSet": {},
+  "description": "http://pinarci.deviantart.com/art/Starfighter-355630888\n\nSingle-pilot swift transport, unarmed. \nSpeed: 60/120mph (180/360mph in steep dive)\nManeuverability: +3R (Lore 1, Ride 2)\nEndurance: Requires a level-2+ hearthstone plugged into\nthe control panel to operate. Requires maintenance every\n20 hours of use, lest it suffer one level of unsoakable lethal\ndamage per 10 hours in arrears.\nCrew: 1/1\nCargo: 2 passengers or equivalent weight in cargo.\nArmor: 10L/15B\nHealth Levels: Ux10/Mx5/Cx4/Ix2/D\nWeapons: Claws (Speed 5, Accuracy +3 ([Dexterity +Ride]\nto hit), Damage 12L (16L with dive), Defense –, Rate 1);\nsome mount First Age weaponry.\nOther Notes: Riders have 75% cover from below and 50%\ncover from all other directions. First Age models have cannon\nweapons and do not need maintenance.?",
+  "name": "Warbird",
+  "composition": "None",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 4
+  }
+}

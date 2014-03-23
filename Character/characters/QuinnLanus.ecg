@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="QuinnLanus" repositoryPrintName="Quinn Lanus">
+  <Description>
+    <CharacterName><![CDATA[Quinn Lanus]]></CharacterName>
+    <Player><![CDATA[Josiah]]></Player>
+    <Characterization><![CDATA[Inspired by a cross between Sherlock Holmes and Nikola Tesla.  ]]></Characterization>
+    <Concept><![CDATA[Reality Engineer]]></Concept>
+    <Eyes><![CDATA[Brown]]></Eyes>
+    <Hair><![CDATA[Black]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[White]]></Skin>
+    <Anima><![CDATA[White Crystalline wireframe]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Quinn Lanus]]></CharacterName>
+    <Player><![CDATA[Josiah]]></Player>
+    <Characterization><![CDATA[Inspired by a cross between Sherlock Holmes and Nikola Tesla.  ]]></Characterization>
+    <Concept><![CDATA[Reality Engineer]]></Concept>
+    <Eyes><![CDATA[Brown]]></Eyes>
+    <Hair><![CDATA[Black]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[White]]></Skin>
+    <Anima><![CDATA[White Crystalline wireframe]]></Anima>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="40">
+      <Caste type="Eclipse"/>
+      <Motivation><![CDATA[Put Creation back into a self-healing state]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="2"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="4"/>
+      <Valor creationValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="1"/>
+        <Manipulation creationValue="5"/>
+        <Appearance creationValue="5"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="4"/>
+        <Intelligence creationValue="5"/>
+        <Wits creationValue="5"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="5" favored="true"/>
+      <MartialArts creationValue="5" favored="true">
+        <Specialty creationValue="3" name="One on One"/>
+      </MartialArts>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="3"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Explanation"/>
+      </Presence>
+      <Resistance creationValue="3"/>
+      <Survival creationValue="0"/>
+      <Craft favored="true">
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="5">
+          <traitName><![CDATA[Genesis]]></traitName>
+          <Specialty creationValue="3" name="Anti-Magic"/>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="5" favored="true">
+        <Specialty creationValue="3" name="Deduction"/>
+      </Investigation>
+      <Lore creationValue="5">
+        <Specialty creationValue="3" name="Wyld Shaping"/>
+      </Lore>
+      <Medicine creationValue="3"/>
+      <Occult creationValue="4">
+        <Specialty creationValue="2" name="Thaumaturgy"/>
+      </Occult>
+      <Athletics creationValue="0"/>
+      <Awareness creationValue="3"/>
+      <Dodge creationValue="0"/>
+      <Larceny creationValue="2"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="5">
+        <Specialty creationValue="3" name="Celestial"/>
+      </Bureaucracy>
+      <Linguistics creationValue="5">
+        <Specialty creationValue="3" name="Writing"/>
+      </Linguistics>
+      <Ride creationValue="0"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="2">
+        <Specialty creationValue="3" name="Analysis"/>
+      </Socialize>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="4"><![CDATA[Artifact]]>
+        <Description><![CDATA[Potentiality Cage]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Hands of the Great Maker]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Backing]]>
+        <Description><![CDATA[Celestial Bureaucracy]]></Description>
+      </Background>
+      <Background creationValue="5"><![CDATA[Resources]]>
+        <Description><![CDATA[Magical Manufacture]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Presence" type="Solar">
+        <Charm name="Solar.IrresistibleSalesmanSpirit" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Presence" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Bureaucracy" type="Solar">
+        <Charm name="Solar.SpeedWheels" experienceLearned="false"/>
+        <Charm name="Solar.Bureau-RectifyingMethod" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Bureaucracy" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Craft" type="Solar">
+        <Charm name="Solar.CraftsmanNeedsNoTools" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Craft" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Linguistics" type="Solar">
+        <Charm name="Solar.TwistedWordsTechnique" experienceLearned="false"/>
+        <Charm name="Solar.SagaciousReadingIntent" experienceLearned="false"/>
+        <Charm name="Solar.Letter-Within-a-LetterTechnique" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Linguistics" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="MartialArts" type="Solar">
+        <Charm name="Solar.RefusalSutra" experienceLearned="false"/>
+        <Charm name="Solar.OrichalcumConditioning" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.MartialArts" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Lore" type="Solar">
+        <Charm name="Solar.3rdExcellency.Lore" experienceLearned="false"/>
+        <Charm name="Solar.Wyld-ShapingTechnique" experienceLearned="false"/>
+        <Charm name="Solar.Chaos-RepellingPattern" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Lore" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Investigation" type="Sidereal">
+        <Charm name="Sidereal.EfficientSecretaryTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="RighteousDevilStyle" type="Solar">
+        <Charm name="Celestial.KissOfTheSunConcentration" experienceLearned="false"/>
+        <Charm name="Celestial.BlossomOfInevitableDemiseTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]>
+              <specialty name="One on One" type="MartialArts"/>
+            </printedStats>
+            <printedStats><![CDATA[Kick]]>
+              <specialty name="One on One" type="MartialArts"/>
+            </printedStats>
+            <printedStats><![CDATA[Clinch]]>
+              <specialty name="One on One" type="MartialArts"/>
+            </printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Flame Piece]]></templateId>
+            <printedStats><![CDATA[Ranged]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Flame Piece]]></templateId>
+            <printedStats><![CDATA[Ranged]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Reinforced Breastplate (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Seatongue]]></language>
+            <language><![CDATA[HighHolySpeech]]></language>
+            <language><![CDATA[HighRealm]]></language>
+            <language><![CDATA[OldRealm]]></language>
+            <language><![CDATA[Skytongue]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Post-Primordial Plan for Creation" complete="false">
+              <Trait creationValue="4"/>
+            </Intimacy>
+            <Intimacy name="Everything Malfeas related (negative)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Everything Underworld related (negative)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Fair Folk (Pathological Hatred)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Natural Animals (Fondness)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Mortals (Coldly Protective Paternal)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Progress (Fearlessly Positive)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Solar Circle (Loyal)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Silver Prince (Chosen Enemy)" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+            <Intimacy name="Ikress (Fearful Attachment)" complete="false">
+              <Trait creationValue="3"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Conviction"/>
+            <Name><![CDATA[Heart of Flint]]></Name>
+            <Limit creationValue="6"/>
+            <LimitBreak><![CDATA[People's selfishness impeding my goals]]></LimitBreak>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

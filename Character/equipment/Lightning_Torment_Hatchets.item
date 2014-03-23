@@ -1,0 +1,44 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "accuracy": 2,
+        "damage": 5,
+        "damageTypeString": "Lethal",
+        "range": 20,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "Thrown"
+        ],
+        "minimumDamage": 1,
+        "name": "Thrown",
+        "type": "Ranged Weapon"
+      },
+      {
+        "accuracy": 1,
+        "damage": 5,
+        "damageTypeString": "Lethal",
+        "range": 20,
+        "rate": 2,
+        "speed": 5,
+        "inflictsNoDamage": false,
+        "tags": [
+          "Thrown"
+        ],
+        "minimumDamage": 1,
+        "name": "Thrown - off-hand",
+        "type": "Ranged Weapon"
+      }
+    ]
+  },
+  "description": "Exalt must commit 3 motes per hatchet. Weilder makes a reflexive action to return Hatchets automatically (within 100 yards, within 1 day, return path must be clear). Blue sparks give -1 internal penalty to all rolls, stacks up to a max of -4. ",
+  "name": "Lightning Torment Hatchets",
+  "collectionFactory": {},
+  "composition": "None",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 3
+  }
+}

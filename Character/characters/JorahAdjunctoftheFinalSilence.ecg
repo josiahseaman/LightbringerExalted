@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="JorahAdjunctoftheFinalSilence" repositoryPrintName="Jorah, Adjunct of the Final Silence">
+  <Description>
+    <CharacterName><![CDATA[Jorah, Adjunct of the Final Silence]]></CharacterName>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Jorah, Adjunct of the Final Silence]]></CharacterName>
+  </Description>
+  <Statistics experienced="false">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Abyssal</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Midnight"/>
+      <Motivation><![CDATA[See the sun cast from the skies and replaced with the one true herald.]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="2"/>
+      <Conviction creationValue="5"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="4"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="3"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="3"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="4"/>
+        <Appearance creationValue="2"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="4"/>
+        <Intelligence creationValue="3"/>
+        <Wits creationValue="5"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="5" favored="true"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="3"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="5"/>
+      <Resistance creationValue="3"/>
+      <Survival creationValue="2"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="3"/>
+      <Lore creationValue="5"/>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="4"/>
+      <Athletics creationValue="1"/>
+      <Awareness creationValue="4"/>
+      <Dodge creationValue="3"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="2"/>
+      <Linguistics creationValue="2"/>
+      <Ride creationValue="1"/>
+      <Sail creationValue="3"/>
+      <Socialize creationValue="2"/>
+    </Abilities>
+    <Backgrounds/>
+    <Charms>
+      <CharmGroup name="MartialArts" type="Abyssal">
+        <Charm name="Abyssal.2ndExcellency.MartialArts" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Presence" type="Abyssal">
+        <Charm name="Abyssal.2ndExcellency.Presence" experienceLearned="false"/>
+        <Charm name="Abyssal.DreadLordsDemeanor" experienceLearned="false"/>
+        <Charm name="Abyssal.HeartStompingMien" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Resistance" type="Abyssal">
+        <Charm name="Abyssal.HopeSlayingResilience" experienceLearned="false"/>
+        <Charm name="Abyssal.OxBodyTechnique" experienceLearned="false">
+          <Special>
+            <Categories>
+              <Category.-0 creationValue="1"/>
+              <Category.-1x2 creationValue="0"/>
+              <Category.-1-2x2 creationValue="0"/>
+            </Categories>
+          </Special>
+        </Charm>
+        <Charm name="Abyssal.SpiritHardenedFrame" experienceLearned="false"/>
+        <Charm name="Abyssal.WoundEatingInvulnerability" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="HungryGhostStyle" type="Abyssal">
+        <Charm name="Celestial.BloodFreezingTechnique" experienceLearned="false"/>
+        <Charm name="Celestial.BloodScentingHunger" experienceLearned="false"/>
+        <Charm name="Celestial.CharmSmotheringTechnique" experienceLearned="false"/>
+        <Charm name="Celestial.ConsumingEntropyStrike" experienceLearned="false"/>
+        <Charm name="Celestial.HungryGhostForm" experienceLearned="false"/>
+        <Charm name="Celestial.LabyrinthWalkingPrana" experienceLearned="false"/>
+        <Charm name="Celestial.LeapingHorrorApproach" experienceLearned="false"/>
+        <Charm name="Celestial.LungingPhantomMethod" experienceLearned="false"/>
+        <Charm name="Celestial.PowerReapingPrana" experienceLearned="false"/>
+        <Charm name="Celestial.ScuttlingApparitionDefense" experienceLearned="false"/>
+        <Charm name="Celestial.ShroudedClawAttack" experienceLearned="false"/>
+        <Charm name="Celestial.UnnaturalShamblingDeftness" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos>
+        <Combo>
+          <Name><![CDATA[Shrouded Nightmare Execution]]></Name>
+          <Description><![CDATA[2 WP cost charm; damage reduces dexterity value]]></Description>
+          <Charm name="Celestial.LeapingHorrorApproach" type="Abyssal"/>
+          <Charm name="Celestial.LungingPhantomMethod" type="Abyssal"/>
+          <Charm name="Celestial.UnnaturalShamblingDeftness" type="Abyssal"/>
+          <Charm name="Abyssal.2ndExcellency.MartialArts" type="Abyssal"/>
+          <Charm name="Celestial.BloodFreezingTechnique" type="Abyssal"/>
+        </Combo>
+      </Combos>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience/>
+    <AdditionalModels>
+      <Model templateId="AbyssalResonance">
+        <Content>
+          <VirtueFlaw>
+            <Name><![CDATA[Flawed Virtue]]></Name>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Abyssal.Fangs]]></templateId>
+            <printedStats><![CDATA[Abyssal.Fangs]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="The Silver Prince" complete="true">
+              <Trait creationValue="5"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics/>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

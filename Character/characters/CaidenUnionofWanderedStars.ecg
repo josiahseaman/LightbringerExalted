@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="CaidenUnionofWanderedStars" repositoryPrintName="Caiden, Union of Wandered Stars">
+  <Description>
+    <CharacterName><![CDATA[Caiden, Union of Wandered Stars]]></CharacterName>
+    <Player><![CDATA[David]]></Player>
+    <Notes><![CDATA[Currently investigating the massive turn of events revolving around Greyfalls. Ominous destinies have been discovered, and the new shadowland is growing at an alarming rate. To top it all off, Caiden was gifted with the Shroud of Mercury - an artifact of great value among the Maidens, and a phantom among Sidereal artificers. The reason for this is unknown, but it is typically gifted to the next Avatar of Journeys.]]></Notes>
+    <Concept><![CDATA[Ronin Sidereal]]></Concept>
+    <Eyes><![CDATA[Gold]]></Eyes>
+    <Hair><![CDATA[Black]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tan]]></Skin>
+    <Anima><![CDATA[Golden Aura]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Caiden, Union of Wandered Stars]]></CharacterName>
+    <Player><![CDATA[David]]></Player>
+    <Notes><![CDATA[Currently investigating the massive turn of events revolving around Greyfalls. Ominous destinies have been discovered, and the new shadowland is growing at an alarming rate. To top it all off, Caiden was gifted with the Shroud of Mercury - an artifact of great value among the Maidens, and a phantom among Sidereal artificers. The reason for this is unknown, but it is typically gifted to the next Avatar of Journeys.]]></Notes>
+    <Concept><![CDATA[Ronin Sidereal]]></Concept>
+    <Eyes><![CDATA[Gold]]></Eyes>
+    <Hair><![CDATA[Black]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Tan]]></Skin>
+    <Anima><![CDATA[Golden Aura]]></Anima>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Sidereal</CharacterType>
+    <CharacterConcept age="220">
+      <Caste type="Journeys"/>
+      <Motivation><![CDATA[Fix the Broken Mask constellation by uprooting corrupt Sidereals/Gods and unifying Exalts with Sidereals once more]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="4"/>
+    <Willpower creationValue="8"/>
+    <Virtues>
+      <Compassion creationValue="3" experiencedValue="3"/>
+      <Conviction creationValue="2"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="2"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="3"/>
+        <Dexterity creationValue="5"/>
+        <Stamina creationValue="3"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="3"/>
+        <Manipulation creationValue="1"/>
+        <Appearance creationValue="3"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="2"/>
+        <Intelligence creationValue="3"/>
+        <Wits creationValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="1">
+        <Specialty creationValue="1" name="Essence Cannons"/>
+      </Archery>
+      <MartialArts creationValue="3"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="4" favored="true"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="0"/>
+      <Resistance creationValue="3"/>
+      <Survival creationValue="2" experiencedValue="3"/>
+      <Craft favored="true">
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Elemental]]></traitName>
+        </subTrait>
+        <subTrait creationValue="1">
+          <traitName><![CDATA[Fate]]></traitName>
+          <Specialty creationValue="2" name="Colleges of Mercury"/>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0" experiencedValue="1"/>
+      <Lore creationValue="3"/>
+      <Medicine creationValue="4" favored="true"/>
+      <Occult creationValue="2"/>
+      <Athletics creationValue="2"/>
+      <Awareness creationValue="2"/>
+      <Dodge creationValue="2" experiencedValue="3" favored="true">
+        <Specialty creationValue="1" name="in Battle Armor"/>
+      </Dodge>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="1"/>
+      <Bureaucracy creationValue="2"/>
+      <Linguistics creationValue="2"/>
+      <Ride creationValue="5"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="1"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3" experiencedValue="5"><![CDATA[Artifact]]>
+        <Description><![CDATA[Starmetal Battle Armor]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Manse]]>
+        <Description><![CDATA[Veiled Star Sanctuary]]></Description>
+      </Background>
+      <Background creationValue="2"><![CDATA[Resources]]></Background>
+      <Background creationValue="3" experiencedValue="5"><![CDATA[Artifact]]>
+        <Description><![CDATA[Shroud of Mercury]]></Description>
+      </Background>
+      <Background creationValue="1" experiencedValue="3"><![CDATA[Allies]]>
+        <Description><![CDATA[Iyandar]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Savant]]></Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Dodge" type="Sidereal">
+        <Charm name="Sidereal.2ndExcellency.Dodge" experienceLearned="true"/>
+        <Charm name="Sidereal.Absence" experienceLearned="false">
+          <Special>
+            <LearnCount creationValue="1"/>
+          </Special>
+        </Charm>
+        <Charm name="Sidereal.DuckFate" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Integrity" type="Sidereal">
+        <Charm name="Sidereal.CreationPreservingWill" experienceLearned="false"/>
+        <Charm name="Sidereal.PreservationOfResolve" experienceLearned="false"/>
+        <Charm name="Sidereal.UnwaveringWellBeingMeditation" experienceLearned="false">
+          <Special>
+            <LearnCount creationValue="1" experiencedValue="2"/>
+          </Special>
+        </Charm>
+      </CharmGroup>
+      <CharmGroup name="Medicine" type="Sidereal">
+        <Charm name="Sidereal.InvocationOfTheStormFollowingSilence" experienceLearned="false"/>
+        <Charm name="Sidereal.PeacableConclusion" experienceLearned="false"/>
+        <Charm name="Sidereal.SmoothTransition" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Resistance" type="Sidereal">
+        <Charm name="Sidereal.2ndExcellency.Resistance" experienceLearned="true"/>
+        <Charm name="Sidereal.OptimisticSecurityPractice" experienceLearned="false"/>
+        <Charm name="Sidereal.ShieldOfDestiny" experienceLearned="false"/>
+        <Charm name="Sidereal.SomeoneElsesDestiny" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Ride" type="Sidereal">
+        <Charm name="Sidereal.BreakingTheWildMortal" experienceLearned="true"/>
+        <Charm name="Sidereal.GloryPath" experienceLearned="true"/>
+        <Charm name="Sidereal.GodlyCompanion" experienceLearned="true"/>
+        <Charm name="Sidereal.OrdainedBridleOfMercury" experienceLearned="false"/>
+        <Charm name="Sidereal.RidingTheDragon" experienceLearned="true"/>
+        <Charm name="Sidereal.SpiritShapeCompanion" experienceLearned="true"/>
+        <Charm name="Sidereal.YellowPath" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Survival" type="Sidereal">
+        <Charm name="Sidereal.SkyAndRainMantra" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="VioletBierStyle" type="Sidereal">
+        <Charm name="Celestial.SecretsOfFutureStrife" experienceLearned="false"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true"/>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="147"/>
+      <Entry points="9"/>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Starmetal Battle Armor]]></templateId>
+            <printedStats><![CDATA[Starmetal Battle Armor]]></printedStats>
+            <printedStats><![CDATA[Essence Cannon (Bashing)]]>
+              <specialty name="Essence Cannons" type="Archery"/>
+            </printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+            <printedStats><![CDATA[Trait Modifying]]></printedStats>
+            <printedStats><![CDATA[Power Mace (Lethal).Melee]]></printedStats>
+            <printedStats><![CDATA[Power Mace (Lethal).MartialArts]]></printedStats>
+            <printedStats><![CDATA[Power Mace (Bashing).Melee]]></printedStats>
+            <printedStats><![CDATA[Power Mace (Bashing).MartialArts]]></printedStats>
+            <printedStats><![CDATA[Essence Cannon (Lethal)]]>
+              <specialty name="Essence Cannons" type="Archery"/>
+            </printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies/>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[HighRealm]]></language>
+            <language><![CDATA[LowRealm]]></language>
+            <language><![CDATA[OldRealm]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Sidereal.FlawedFate.Template">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Compassion"/>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Sidereal.Paradox.Template">
+        <Content>
+          <VirtueFlaw>
+            <Name><![CDATA[Flawed Virtue]]></Name>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="SiderealColleges">
+        <Content>
+          <Colleges>
+            <Captain creationValue="0"/>
+            <Gull creationValue="0"/>
+            <Mast creationValue="0"/>
+            <Messenger creationValue="4"/>
+            <ShipsWheel creationValue="1"/>
+            <Ewer creationValue="0"/>
+            <Lovers creationValue="0"/>
+            <Musician creationValue="0"/>
+            <Peacock creationValue="0"/>
+            <Pillar creationValue="0"/>
+            <Banner creationValue="0"/>
+            <Gauntlet creationValue="0"/>
+            <Quiver creationValue="0"/>
+            <Shield creationValue="0"/>
+            <Spear creationValue="0"/>
+            <Guardians creationValue="0"/>
+            <Key creationValue="0"/>
+            <Mask creationValue="0"/>
+            <Sorcerer creationValue="2"/>
+            <TreasureTrove creationValue="0"/>
+            <Corpse creationValue="0"/>
+            <Crow creationValue="0"/>
+            <Haywain creationValue="0"/>
+            <RisingSmoke creationValue="0"/>
+            <Sword creationValue="0"/>
+          </Colleges>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

@@ -1,0 +1,86 @@
+{
+  "statsByRuleSet": {
+    "SecondEdition": [
+      {
+        "accuracy": 1,
+        "damage": 6,
+        "damageTypeString": "Lethal",
+        "range": 400,
+        "rate": 3,
+        "speed": 6,
+        "inflictsNoDamage": false,
+        "tags": [
+          "TwoHanded",
+          "BowType"
+        ],
+        "minimumDamage": 1,
+        "name": "Base",
+        "type": "Ranged Weapon"
+      },
+      {
+        "accuracy": 1,
+        "damage": 8,
+        "damageTypeString": "Lethal",
+        "range": 400,
+        "rate": 3,
+        "speed": 6,
+        "inflictsNoDamage": false,
+        "tags": [
+          "TwoHanded",
+          "BowType"
+        ],
+        "minimumDamage": 1,
+        "name": "Broadhead",
+        "type": "Ranged Weapon"
+      },
+      {
+        "accuracy": 1,
+        "damage": 10,
+        "damageTypeString": "Lethal",
+        "range": 400,
+        "rate": 3,
+        "speed": 6,
+        "inflictsNoDamage": false,
+        "tags": [
+          "TwoHanded",
+          "BowType"
+        ],
+        "minimumDamage": 1,
+        "name": "Frog Crotch",
+        "type": "Ranged Weapon"
+      },
+      {
+        "accuracy": 1,
+        "damage": 6,
+        "damageTypeString": "Lethal",
+        "range": 400,
+        "rate": 3,
+        "speed": 6,
+        "inflictsNoDamage": false,
+        "tags": [
+          "TwoHanded",
+          "BowType"
+        ],
+        "minimumDamage": 1,
+        "name": "Target",
+        "type": "Ranged Weapon"
+      },
+      {
+        "attuneCost": 8,
+        "allowForeignAttunement": true,
+        "requireAttunement": true,
+        "name": "Artifact",
+        "type": "Artifact"
+      }
+    ]
+  },
+  "description": "The crimson bow belonged to the First Age hero Ai, who helped end many Primordials with its arrows. It is king among powerbows, six feet in height and crafted from redwood and orichalcum. It is impossible to draw unless attuned, which costs eight motes. Arrows fired from this bow burn with the red light of the setting sun, transforming into bolts of pure Essence that defy attempts at evasion. These attacks always hit with a minimum of one success, regarless of the target\u0027s DVs; a target\u0027s only hope is to parry with a stunt or Charm, or to use a perfect defense. If the wielder chooses, he may reflexively spend four motes upon firing, allowing the arrow to strike immaterial targets and inflict aggravated damage.\n\nStriking every target is a massive effect. It certainly qualifies as an overwhelming advantage, but not an unbeatable one. Perfect defense Charms can defeat the attack and the damage, and soak can reduce damage to minimum without any effort on the target\u0027s part. Even the additional power is impressive but not terrifying.",
+  "name": "Crimson Bow",
+  "collectionFactory": {},
+  "material": "Orichalcum",
+  "composition": "Fixed",
+  "cost": {
+    "costType": "Artifact",
+    "costValue": 4
+  }
+}

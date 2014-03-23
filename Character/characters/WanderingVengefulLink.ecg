@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="WanderingVengefulLink" repositoryPrintName="Skogur Vinur">
+  <Description>
+    <CharacterName><![CDATA[Skogur Vinur]]></CharacterName>
+    <Player><![CDATA[Bryan]]></Player>
+    <Characterization><![CDATA[My family was part of a small farming community that lived in the far East.
+Against all odds, our community had found a small clearing to live out of. It was a rich fertile area, and through hard work and close family like ties, we propsered. 
+Mostly we kept to ourselves as the forest tends to provide everything you need when you take care of it.
+
+Then one day House Cynis began their quest to get closer to the Elemental Pole of Wood.
+In their expansion, they came across our rare and beautiful clearing and decided to call it their own.
+The leader of House Cynis cast out our entire community and dropped us to the rank of disenfranchised. They then destroyed our homes and began to cut down the trees around the edges of the glade to make room for their disgusting massive castle.
+
+Since then, after being cast out, my family has been wandering through the woods. Day by day just looking for simple shelter and food.
+With the mark of the disenfranchised, nobody would have us. We could not settle down into a new home, and people went out of their way to make our lives miserable; freely steeling what little posessions we were able to come by.
+
+It was my parents goal to raise and train me in the way of the woods so that one day, maybe I could become one of the epic heroes in the stories of past, with great power and the drive to return the favor to House Cynis.
+After years of training cast out in the woods, I am now a skilled survivalist and practitioner. I have a strong affinity with the animals of the land, going out of my way to preserve the woods and all things innocent.
+
+And every day, I watch and listen, learning new ways of bringing down House Cynis.]]></Characterization>
+    <PhysicalDescription><![CDATA[6'9"]]></PhysicalDescription>
+    <Notes><![CDATA[My parents were displaced by House Cynis and disenfranchised. They raised me, wandering in the woods trying to eek out a living. My whole young life was focused on training in hopes of one day becoming one of the rumored powerful heros that could one day put House Cynis in it's place.]]></Notes>
+    <Concept><![CDATA[Druid Ranger]]></Concept>
+    <Eyes><![CDATA[1 Green/1 Blue]]></Eyes>
+    <Hair><![CDATA[Red]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Light Tan]]></Skin>
+    <Anima><![CDATA[A large willow tree wreathed in green fire with a full moon rising behind it]]></Anima>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Skogur Vinur]]></CharacterName>
+    <Player><![CDATA[Bryan]]></Player>
+    <Characterization><![CDATA[My family was part of a small farming community that lived in the far East.
+Against all odds, our community had found a small clearing to live out of. It was a rich fertile area, and through hard work and close family like ties, we propsered. 
+Mostly we kept to ourselves as the forest tends to provide everything you need when you take care of it.
+
+Then one day House Cynis began their quest to get closer to the Elemental Pole of Wood.
+In their expansion, they came across our rare and beautiful clearing and decided to call it their own.
+The leader of House Cynis cast out our entire community and dropped us to the rank of disenfranchised. They then destroyed our homes and began to cut down the trees around the edges of the glade to make room for their disgusting massive castle.
+
+Since then, after being cast out, my family has been wandering through the woods. Day by day just looking for simple shelter and food.
+With the mark of the disenfranchised, nobody would have us. We could not settle down into a new home, and people went out of their way to make our lives miserable; freely steeling what little posessions we were able to come by.
+
+It was my parents goal to raise and train me in the way of the woods so that one day, maybe I could become one of the epic heroes in the stories of past, with great power and the drive to return the favor to House Cynis.
+After years of training cast out in the woods, I am now a skilled survivalist and practitioner. I have a strong affinity with the animals of the land, going out of my way to preserve the woods and all things innocent.
+
+And every day, I watch and listen, learning new ways of bringing down House Cynis.]]></Characterization>
+    <PhysicalDescription><![CDATA[6'9"]]></PhysicalDescription>
+    <Notes><![CDATA[My parents were displaced by House Cynis and disenfranchised. They raised me, wandering in the woods trying to eek out a living. My whole young life was focused on training in hopes of one day becoming one of the rumored powerful heros that could one day put House Cynis in it's place.]]></Notes>
+    <Concept><![CDATA[Druid Ranger]]></Concept>
+    <Eyes><![CDATA[1 Green/1 Blue]]></Eyes>
+    <Hair><![CDATA[Red]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[Light Tan]]></Skin>
+    <Anima><![CDATA[A large willow tree wreathed in green fire with a full moon rising behind it]]></Anima>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="24">
+      <Caste type="Night"/>
+      <Motivation><![CDATA[Become powerful enough to overrun House Cynis]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="2" experiencedValue="3"/>
+    <Willpower creationValue="6" experiencedValue="6"/>
+    <Virtues>
+      <Compassion creationValue="3"/>
+      <Conviction creationValue="4"/>
+      <Temperance creationValue="3"/>
+      <Valor creationValue="2"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2" experiencedValue="4"/>
+        <Dexterity creationValue="4"/>
+        <Stamina creationValue="3"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="2"/>
+        <Manipulation creationValue="2"/>
+        <Appearance creationValue="3"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="4"/>
+        <Intelligence creationValue="4"/>
+        <Wits creationValue="3"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="5" favored="true">
+        <Specialty creationValue="2" name="In trees"/>
+        <Specialty creationValue="1" name="While Falling"/>
+      </Archery>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="1"/>
+      <Thrown creationValue="0" experiencedValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="3"/>
+      <Performance creationValue="0"/>
+      <Presence creationValue="0"/>
+      <Resistance creationValue="2" experiencedValue="2"/>
+      <Survival creationValue="5" favored="true"/>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="2" experiencedValue="3" favored="true"/>
+      <Lore creationValue="1" experiencedValue="2"/>
+      <Medicine creationValue="4" favored="true"/>
+      <Occult creationValue="2" experiencedValue="2" favored="true"/>
+      <Athletics creationValue="4"/>
+      <Awareness creationValue="4" experiencedValue="4"/>
+      <Dodge creationValue="3" experiencedValue="4"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="5">
+        <Specialty creationValue="1" name="When accompanied by woodland friend"/>
+      </Stealth>
+      <Bureaucracy creationValue="1" experiencedValue="1"/>
+      <Linguistics creationValue="0" experiencedValue="0"/>
+      <Ride creationValue="0"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Familiar]]>
+        <Description><![CDATA[Dire Wolf (5 mote pool)]]></Description>
+      </Background>
+      <Background creationValue="2"><![CDATA[Resources]]>
+        <Description><![CDATA[Gathered medicinal supplies]]></Description>
+      </Background>
+      <Background creationValue="1"><![CDATA[Manse]]>
+        <Description><![CDATA[Level 1 Manse (at my clinic in town) with Level 1 Stone of Healing (+3 dice)]]></Description>
+      </Background>
+      <Background creationValue="1"><![CDATA[Artifact]]>
+        <Description><![CDATA[Orichalcum Hearthstone Amulet (Bracelet in the shape of an eagle head)]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Spirit Court]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Archery" type="Solar">
+        <Charm name="Solar.EssenceArrowAttack" experienceLearned="true">
+          <Special>
+            <Subeffects>
+              <Subeffect id="FieryArrowAttack" creationlearned="false" experiencelearned="true"/>
+              <Subeffect id="DazzlingFlare" creationlearned="false" experiencelearned="true"/>
+              <Subeffect id="RighteousJudgementArrow" creationlearned="false" experiencelearned="true"/>
+            </Subeffects>
+          </Special>
+        </Charm>
+        <Charm name="Solar.FlashingVengeanceDraw" experienceLearned="false"/>
+        <Charm name="Solar.PhantomArrowTechnique" experienceLearned="true"/>
+        <Charm name="Solar.RainFeatheredDeath" experienceLearned="true"/>
+        <Charm name="Solar.TranceUnhesitatingSpeed" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Athletics" type="Solar">
+        <Charm name="Solar.Feather-FootStyle" experienceLearned="false"/>
+        <Charm name="Solar.GracefulCraneStance" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Awareness" type="Solar">
+        <Charm name="Solar.1stExcellency.Awareness" experienceLearned="true"/>
+        <Charm name="Solar.KeenHearingandTouchTechnique" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Dodge" type="Solar">
+        <Charm name="Solar.SevenShadowEvasion" experienceLearned="true"/>
+        <Charm name="Solar.ShadowOverWater" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Medicine" type="Solar">
+        <Charm name="Solar.3rdExcellency.Medicine" experienceLearned="false"/>
+        <Charm name="Solar.Contagion-CuringTouch" experienceLearned="false"/>
+        <Charm name="Solar.FlawlessDiagnosisTechnique" experienceLearned="false"/>
+        <Charm name="Solar.InstantTreatmentMethodology" experienceLearned="false"/>
+        <Charm name="Solar.Wholeness-RestoringMeditation" experienceLearned="true"/>
+        <Charm name="Solar.Wound-MendingCareTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Stealth" type="Solar">
+        <Charm name="Solar.EasilyOverlookedPresenceMethod" experienceLearned="true"/>
+        <Charm name="Solar.InvisibleStatueSpirit" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Survival" type="Solar">
+        <Charm name="Solar.BestialTraitsTechnique" experienceLearned="true"/>
+        <Charm name="Solar.FriendshipwithAnimalsApproach" experienceLearned="false"/>
+        <Charm name="Solar.ImmanentSolarGlorySurvival" experienceLearned="true">
+          <Special>
+            <LearnCount creationValue="0" experiencedValue="2"/>
+          </Special>
+        </Charm>
+      </CharmGroup>
+      <Combos>
+        <Combo>
+          <Name><![CDATA[Karate Chop of Health]]></Name>
+          <Charm name="Solar.Contagion-CuringTouch" type="Solar"/>
+          <Charm name="Solar.3rdExcellency.Medicine" type="Solar"/>
+          <Charm name="Solar.InstantTreatmentMethodology" type="Solar"/>
+        </Combo>
+        <Combo>
+          <Name><![CDATA[Uber Heal]]></Name>
+          <Charm name="Solar.3rdExcellency.Medicine" type="Solar"/>
+          <Charm name="Solar.InstantTreatmentMethodology" type="Solar"/>
+          <Charm name="Solar.Wound-MendingCareTechnique" type="Solar"/>
+        </Combo>
+      </Combos>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="LordsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Abyssals2nd" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="11">
+        <Description><![CDATA[First Scene Completion]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Second Scene Completion]]></Description>
+      </Entry>
+      <Entry points="7">
+        <Description><![CDATA[Third Scene Completion]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Fourth Scene Completion]]></Description>
+      </Entry>
+      <Entry points="6">
+        <Description><![CDATA[Spirit Court Backing]]></Description>
+      </Entry>
+      <Entry points="4">
+        <Description><![CDATA[Fifth Scene]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[Sixth Scene]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[Seventh Scene]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Eigth Scene]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Ninth Scene]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[6 month Downtime XP]]></Description>
+      </Entry>
+      <Entry points="11">
+        <Description><![CDATA[Tenth Scene]]></Description>
+      </Entry>
+      <Entry points="20">
+        <Description><![CDATA[Eleventh Scene (Season Finale)]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[2 - First Scene (12)]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[13th Scene]]></Description>
+      </Entry>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Hearthstone Amulet]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Moon-Face Breastplate]]></templateId>
+            <printedStats><![CDATA[Armour]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Crimson Bow]]></templateId>
+            <printedStats><![CDATA[Base]]></printedStats>
+            <printedStats><![CDATA[Broadhead]]></printedStats>
+            <printedStats><![CDATA[Frog Crotch]]></printedStats>
+            <printedStats><![CDATA[Target]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Righteous Lion Torc]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Trait Modifiers]]></printedStats>
+            <printedStats><![CDATA[Righteous Lion Torc.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Meridian Wireless Transcievers ]]></templateId>
+          </item>
+          <item>
+            <templateId><![CDATA[Short Sword (Fine)]]></templateId>
+            <printedStats><![CDATA[Close]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Knife]]></templateId>
+            <printedStats><![CDATA[Close]]></printedStats>
+            <printedStats><![CDATA[Ranged]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Meticulous Mouse]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Destroy House Cynis" complete="false">
+              <Trait creationValue="4" experiencedValue="2"/>
+            </Intimacy>
+            <Intimacy name="Stand up for the weak/deprived, especially disenfranchised." complete="true">
+              <Trait creationValue="4"/>
+            </Intimacy>
+            <Intimacy name="Save the forest and return it to a sustainable balance." complete="true">
+              <Trait creationValue="4"/>
+            </Intimacy>
+            <Intimacy name="Trygg" complete="true">
+              <Trait creationValue="0" experiencedValue="4"/>
+            </Intimacy>
+            <Intimacy name="King Stewart" complete="true">
+              <Trait creationValue="0" experiencedValue="4"/>
+            </Intimacy>
+            <Intimacy name="Jarl Droaz" complete="false">
+              <Trait creationValue="0" experiencedValue="3"/>
+            </Intimacy>
+            <Intimacy name="Library at Mahalanka " complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Foresttongue]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Compassion"/>
+            <Name><![CDATA[Compassionate Martyrdom]]></Name>
+            <Limit creationValue="0"/>
+            <LimitBreak><![CDATA[Witness innocents suffering through no fault of their own (animals count as innocents)]]></LimitBreak>
+            <Description><![CDATA[Overcome with the need to alleviate the suffering I witness, I throw myself into helping the victims in the most direct and dramatic fashion possible.
+
+If attempt to control the Limit Break, must still immediately and directly aid those who are suffering. However, I can choose to do so more effectively.
+
+Duraction: One scene in combat or one day otherwise.]]></Description>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

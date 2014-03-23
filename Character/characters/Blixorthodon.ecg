@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="Blixorthodon" repositoryPrintName="Blixorthodon Leaping Flame">
+  <Description>
+    <CharacterName><![CDATA[Blixorthodon Leaping Flame]]></CharacterName>
+    <Player><![CDATA[Marshall]]></Player>
+    <Characterization><![CDATA[Having only left the tiny floating island once in his short life he yearns to leave home and seek adventure. Born Blixorthodon Thornwood, the Leaping Flame grew up the son of the village carpenter and plays a pan flute... poorly. ]]></Characterization>
+    <PhysicalDescription><![CDATA[wiry and scraggly just shy of 2 yards tall.]]></PhysicalDescription>
+    <Notes><![CDATA[Blixorthodon Thornwood
+Leaping Flame of the Burning Sun 
+Resplindent
+Stormwind the strix.]]></Notes>
+    <Concept><![CDATA[wants to get off this little rock and see the world]]></Concept>
+    <Eyes><![CDATA[Blond]]></Eyes>
+    <Hair><![CDATA[Blu]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[medium rare]]></Skin>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Blixorthodon Leaping Flame]]></CharacterName>
+    <Player><![CDATA[Marshall]]></Player>
+    <Characterization><![CDATA[Having only left the tiny floating island once in his short life he yearns to leave home and seek adventure. Born Blixorthodon Thornwood, the Leaping Flame grew up the son of the village carpenter and plays a pan flute... poorly. ]]></Characterization>
+    <PhysicalDescription><![CDATA[wiry and scraggly just shy of 2 yards tall.]]></PhysicalDescription>
+    <Notes><![CDATA[Blixorthodon Thornwood
+Leaping Flame of the Burning Sun 
+Resplindent
+Stormwind the strix.]]></Notes>
+    <Concept><![CDATA[wants to get off this little rock and see the world]]></Concept>
+    <Eyes><![CDATA[Blond]]></Eyes>
+    <Hair><![CDATA[Blu]]></Hair>
+    <Sex><![CDATA[M]]></Sex>
+    <Skin><![CDATA[medium rare]]></Skin>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="17">
+      <Caste type="Night"/>
+      <Motivation><![CDATA[Get off this boring floating island]]></Motivation>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="4"/>
+    <Willpower creationValue="6" experiencedValue="6"/>
+    <Virtues>
+      <Compassion creationValue="3"/>
+      <Conviction creationValue="1" experiencedValue="1"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="3" experiencedValue="3"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="3" experiencedValue="3"/>
+        <Dexterity creationValue="4" experiencedValue="4"/>
+        <Stamina creationValue="2" experiencedValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="3" experiencedValue="3"/>
+        <Manipulation creationValue="2" experiencedValue="2"/>
+        <Appearance creationValue="2" experiencedValue="2"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="5"/>
+        <Intelligence creationValue="2" experiencedValue="2"/>
+        <Wits creationValue="4" experiencedValue="4"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="5" favored="true">
+        <Specialty creationValue="2" experiencedValue="2" name="while riding"/>
+      </Archery>
+      <MartialArts creationValue="0"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0" experiencedValue="1"/>
+      <Integrity creationValue="2"/>
+      <Performance creationValue="1" experiencedValue="3"/>
+      <Presence creationValue="0"/>
+      <Resistance creationValue="0" experiencedValue="0"/>
+      <Survival creationValue="2" experiencedValue="3" favored="true"/>
+      <Craft favored="true">
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+        <subTrait creationValue="4">
+          <traitName><![CDATA[elemental]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="1"/>
+      <Lore creationValue="0"/>
+      <Medicine creationValue="1" experiencedValue="1" favored="true"/>
+      <Occult creationValue="0"/>
+      <Athletics creationValue="3">
+        <Specialty creationValue="2" name="leaping"/>
+      </Athletics>
+      <Awareness creationValue="2" experiencedValue="3"/>
+      <Dodge creationValue="1" experiencedValue="4"/>
+      <Larceny creationValue="5"/>
+      <Stealth creationValue="0"/>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="0"/>
+      <Ride creationValue="3" experiencedValue="3" favored="true"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="0"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Manse]]>
+        <Description><![CDATA[Hearthsone Necklace]]></Description>
+      </Background>
+      <Background creationValue="5"><![CDATA[Familiar]]>
+        <Description><![CDATA[Strix]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="0"><![CDATA[Resources]]>
+        <Description><![CDATA[Qebeth]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Spirit Courts]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Larceny" type="Solar">
+        <Charm name="Solar.1stExcellency.Larceny" experienceLearned="false"/>
+        <Charm name="Solar.Lock-OpeningTouch" experienceLearned="false"/>
+        <Charm name="Solar.FlawlesslyImpenetrableDisguise" experienceLearned="false"/>
+        <Charm name="Solar.PerfectMirror" experienceLearned="true"/>
+        <Charm name="Solar.Door-EvadingTechnique" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Ride" type="Solar">
+        <Charm name="Solar.MasterHorseman'sTechniques" experienceLearned="false">
+          <Special>
+            <Subeffects>
+              <Subeffect id="HarmonySpiritsStyle" creationlearned="true" experiencelearned="true"/>
+              <Subeffect id="Horse-SummoningWhistle" creationlearned="true" experiencelearned="true"/>
+              <Subeffect id="MasterHorseman'sEye" creationlearned="false" experiencelearned="false"/>
+              <Subeffect id="Speed-SustainingTechnique" creationlearned="false" experiencelearned="true"/>
+              <Subeffect id="Spirit-SteadyingAssurances" creationlearned="false" experiencelearned="false"/>
+            </Subeffects>
+          </Special>
+        </Charm>
+        <Charm name="Solar.HorseSkidsTrick" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Craft" type="Solar">
+        <Charm name="Solar.1stExcellency.Craft" experienceLearned="false"/>
+        <Charm name="Solar.CraftsmanNeedsNoTools" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Dodge" type="Solar">
+        <Charm name="Solar.ShadowOverWater" experienceLearned="true"/>
+        <Charm name="Solar.ReflexSidestepTechnique" experienceLearned="true"/>
+        <Charm name="Solar.ReedInTheWind" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Performance" type="Solar">
+        <Charm name="Solar.RespectCommandingAttitude" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Athletics" type="Solar">
+        <Charm name="Solar.MonkeyLeapTechnique" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="Archery" type="Solar">
+        <Charm name="Solar.ForcefulArrow" experienceLearned="false"/>
+        <Charm name="Solar.1stExcellency.Archery" experienceLearned="false"/>
+        <Charm name="Solar.ThereIsNoWind" experienceLearned="false"/>
+        <Charm name="Solar.ArrowStormTechnique" experienceLearned="true"/>
+        <Charm name="Solar.TranceUnhesitatingSpeed" experienceLearned="true"/>
+      </CharmGroup>
+      <Combos>
+        <Combo>
+          <Name><![CDATA[Powershot]]></Name>
+          <Charm name="Solar.1stExcellency.Archery" type="Solar"/>
+          <Charm name="Solar.ThereIsNoWind" type="Solar"/>
+          <Charm name="Solar.ForcefulArrow" type="Solar"/>
+        </Combo>
+      </Combos>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="LordsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Abyssals2nd" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="OadenolsCodex" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollErrata" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells/>
+    <Experience>
+      <Entry points="11">
+        <Description><![CDATA[Episode 1 - Gin goes to a party]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Episode 2 - Saving Stewart]]></Description>
+      </Entry>
+      <Entry points="7">
+        <Description><![CDATA[Episode 3 - The downtime episode]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Episode 4 - Shindig]]></Description>
+      </Entry>
+      <Entry points="6">
+        <Description><![CDATA[4a - reimbursement for backing 2]]></Description>
+      </Entry>
+      <Entry points="4">
+        <Description><![CDATA[Episode 5 - Skyships in flight, afternoon delight]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[Episode 6]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[Episode 7 - Hand of Fire II]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Episode 8 - The Laenia Accord]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[Episode 9 - ]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[Epic Downtime of Awesome]]></Description>
+      </Entry>
+      <Entry points="20">
+        <Description><![CDATA[Episode 11 - We Win]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[Episode 12 - Not A Better World]]></Description>
+      </Entry>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Punch]]></printedStats>
+            <printedStats><![CDATA[Kick]]></printedStats>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Knife]]></templateId>
+            <printedStats><![CDATA[Close]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Short Powerbow]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+            <printedStats><![CDATA[Base]]></printedStats>
+            <printedStats><![CDATA[Broadhead Arrow]]></printedStats>
+            <printedStats><![CDATA[Fowling Arrow]]></printedStats>
+            <printedStats><![CDATA[Frog Crotch Arrow]]></printedStats>
+            <printedStats><![CDATA[Target Arrow]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Reinforced Buff Jacket (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Meridian Wireless Transcievers ]]></templateId>
+          </item>
+          <item>
+            <templateId><![CDATA[Righteous Lion Torc]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Trait Modifiers]]></printedStats>
+            <printedStats><![CDATA[Righteous Lion Torc.FullyAttuned]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Foresttongue]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Autonomy of Andrake" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="the Circle" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="Qebeth" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="Stormwind" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+            <Intimacy name="Roxie (fear)" complete="false">
+              <Trait creationValue="0" experiencedValue="1"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Valor"/>
+            <Name><![CDATA[Naive Enthusiasm]]></Name>
+            <Limit creationValue="0" experiencedValue="3"/>
+            <LimitBreak><![CDATA[Being Restrained]]></LimitBreak>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>

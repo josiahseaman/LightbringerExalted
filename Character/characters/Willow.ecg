@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExaltedCharacter repositoryId="Willow" repositoryPrintName="Willow">
+  <Description>
+    <CharacterName><![CDATA[Willow]]></CharacterName>
+    <Player><![CDATA[Corina]]></Player>
+    <Concept><![CDATA[Druid Sorceror]]></Concept>
+  </Description>
+  <Description>
+    <CharacterName><![CDATA[Willow]]></CharacterName>
+    <Player><![CDATA[Corina]]></Player>
+    <Concept><![CDATA[Druid Sorceror]]></Concept>
+  </Description>
+  <Statistics experienced="true">
+    <Rules>
+      <RuleSet name="SecondEdition"/>
+    </Rules>
+    <CharacterType subtype="TemplateType.Default">Solar</CharacterType>
+    <CharacterConcept age="0">
+      <Caste type="Twilight"/>
+    </CharacterConcept>
+    <Essence creationValue="3" experiencedValue="4"/>
+    <Willpower creationValue="5" experiencedValue="7"/>
+    <Virtues>
+      <Compassion creationValue="2"/>
+      <Conviction creationValue="3"/>
+      <Temperance creationValue="2"/>
+      <Valor creationValue="2"/>
+    </Virtues>
+    <Attributes>
+      <Physical>
+        <Strength creationValue="2"/>
+        <Dexterity creationValue="3"/>
+        <Stamina creationValue="2"/>
+      </Physical>
+      <Social>
+        <Charisma creationValue="5"/>
+        <Manipulation creationValue="2"/>
+        <Appearance creationValue="4"/>
+      </Social>
+      <Mental>
+        <Perception creationValue="3"/>
+        <Intelligence creationValue="4"/>
+        <Wits creationValue="2"/>
+      </Mental>
+    </Attributes>
+    <Abilities>
+      <Archery creationValue="0"/>
+      <MartialArts creationValue="5" favored="true"/>
+      <Melee creationValue="0"/>
+      <Thrown creationValue="0"/>
+      <War creationValue="0"/>
+      <Integrity creationValue="0"/>
+      <Performance creationValue="1"/>
+      <Presence creationValue="3" experiencedValue="3" favored="true"/>
+      <Resistance creationValue="1"/>
+      <Survival creationValue="5" favored="true">
+        <Specialty creationValue="1" name="Leading Groups"/>
+      </Survival>
+      <Craft>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Air]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Earth]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Fire]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Water]]></traitName>
+        </subTrait>
+        <subTrait creationValue="0">
+          <traitName><![CDATA[Wood]]></traitName>
+        </subTrait>
+      </Craft>
+      <Investigation creationValue="0"/>
+      <Lore creationValue="2" experiencedValue="2"/>
+      <Medicine creationValue="0"/>
+      <Occult creationValue="5">
+        <Specialty creationValue="3" name="Forest"/>
+      </Occult>
+      <Athletics creationValue="3"/>
+      <Awareness creationValue="5" favored="true"/>
+      <Dodge creationValue="5" favored="true"/>
+      <Larceny creationValue="0"/>
+      <Stealth creationValue="2"/>
+      <Bureaucracy creationValue="0"/>
+      <Linguistics creationValue="0"/>
+      <Ride creationValue="1"/>
+      <Sail creationValue="0"/>
+      <Socialize creationValue="1"/>
+    </Abilities>
+    <Backgrounds>
+      <Background creationValue="3"><![CDATA[Influence]]>
+        <Description><![CDATA[Andraek]]></Description>
+      </Background>
+      <Background creationValue="1"><![CDATA[Mentor]]>
+        <Description><![CDATA[Snake Style]]></Description>
+      </Background>
+      <Background creationValue="3"><![CDATA[Artifact]]>
+        <Description><![CDATA[Armor (Plate)]]></Description>
+      </Background>
+      <Background creationValue="0" experiencedValue="2"><![CDATA[Backing]]>
+        <Description><![CDATA[Spirit Courts]]></Description>
+      </Background>
+    </Backgrounds>
+    <Charms>
+      <CharmGroup name="Occult" type="Solar">
+        <Charm name="Solar.TerrestrialCircleSorcery" experienceLearned="false"/>
+        <Charm name="Solar.CelestialCircleSorcery" experienceLearned="true"/>
+        <Charm name="Solar.Spirit-CuttingAttack" experienceLearned="true"/>
+        <Charm name="Solar.All-EncompassingSorcerer'sSight" experienceLearned="true"/>
+        <Charm name="Solar.Spirit-DetectingGlance" experienceLearned="true"/>
+      </CharmGroup>
+      <CharmGroup name="Survival" type="Solar">
+        <Charm name="Solar.Eye-DeceivingCamouflage" experienceLearned="false"/>
+        <Charm name="Solar.2ndExcellency.Survival" experienceLearned="false"/>
+        <Charm name="Solar.TracklessRegionNavigation" experienceLearned="false"/>
+      </CharmGroup>
+      <CharmGroup name="SnakeStyle" type="Solar">
+        <Charm name="Solar.SnakeForm" experienceLearned="true"/>
+        <Charm name="Solar.StrikingCobraTechnique" experienceLearned="true"/>
+        <Charm name="Solar.SerpentineEvasion" experienceLearned="true"/>
+      </CharmGroup>
+      <Combos/>
+      <CharmFilters>
+        <SourceFilter showprereqs="true">
+          <SourceBook name="BrokenWingedCrane" edition="SecondEdition"/>
+          <SourceBook name="CompassWyld" edition="SecondEdition"/>
+          <SourceBook name="DebrisFallenRaces" edition="SecondEdition"/>
+          <SourceBook name="LandsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="LordsOfCreation" edition="SecondEdition"/>
+          <SourceBook name="GloriesLuna" edition="SecondEdition"/>
+          <SourceBook name="GloriesMaidens" edition="SecondEdition"/>
+          <SourceBook name="GloriesUCS" edition="SecondEdition"/>
+          <SourceBook name="LostDead" edition="SecondEdition"/>
+          <SourceBook name="Abyssals2nd" edition="SecondEdition"/>
+          <SourceBook name="Alchemicals2nd" edition="SecondEdition"/>
+          <SourceBook name="DragonBlooded2nd" edition="SecondEdition"/>
+          <SourceBook name="Infernals" edition="SecondEdition"/>
+          <SourceBook name="Lunars2nd" edition="SecondEdition"/>
+          <SourceBook name="Sidereals2nd" edition="SecondEdition"/>
+          <SourceBook name="OadenolsCodex" edition="SecondEdition"/>
+          <SourceBook name="ReturnEmpress" edition="SecondEdition"/>
+          <SourceBook name="GodsAndElementals" edition="SecondEdition"/>
+          <SourceBook name="GhostsAndDemons" edition="SecondEdition"/>
+          <SourceBook name="ScrollErrata" edition="SecondEdition"/>
+          <SourceBook name="ScrollExalts" edition="SecondEdition"/>
+          <SourceBook name="ScrollMonk" edition="SecondEdition"/>
+          <SourceBook name="ImperfectLotus" edition="SecondEdition"/>
+          <SourceBook name="BlackTreatise" edition="SecondEdition"/>
+          <SourceBook name="ThousandCorrectActions" edition="SecondEdition"/>
+          <SourceBook name="UnderRose" edition="SecondEdition"/>
+          <SourceBook name="WondersLostAge" edition="SecondEdition"/>
+        </SourceFilter>
+      </CharmFilters>
+    </Charms>
+    <Spells>
+      <Spell name="Terrestrial.RitualElementalEmpowerment" experienceLearned="false"/>
+      <Spell name="Terrestrial.CommandingBeasts" experienceLearned="false"/>
+      <Spell name="Terrestrial.FlightSeparation" experienceLearned="false"/>
+      <Spell name="Terrestrial.WoodDragon'sClaw" experienceLearned="false"/>
+      <Spell name="Terrestrial.SummonElemental" experienceLearned="false"/>
+      <Spell name="Terrestrial.SummoningHarvest" experienceLearned="false"/>
+      <Spell name="Terrestrial.EmeraldCircleBanishment" experienceLearned="true"/>
+      <Spell name="Terrestrial.VirtuousGuardianFlame" experienceLearned="true"/>
+      <Spell name="Terrestrial.FlightBrilliantRaptor" experienceLearned="true"/>
+      <Spell name="Celestial.MagmaKraken" experienceLearned="true"/>
+      <Spell name="Celestial.HiddenJudgesSecretFlame" experienceLearned="true"/>
+      <Spell name="Celestial.IvoryOrchidPavilion" experienceLearned="true"/>
+    </Spells>
+    <Experience>
+      <Entry points="11">
+        <Description><![CDATA[1 - Unwanted Emissaries]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[2 - Saving Stewart]]></Description>
+      </Entry>
+      <Entry points="7">
+        <Description><![CDATA[3 - Kingdoms without a King]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[4 - Shindig]]></Description>
+      </Entry>
+      <Entry points="6">
+        <Description><![CDATA[Backing 2 (Spirit Courts)]]></Description>
+      </Entry>
+      <Entry points="4">
+        <Description><![CDATA[5 - A New Friend]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[6 - Hand of Fire pt1]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[7 - Hand of Fire pt 2]]></Description>
+      </Entry>
+      <Entry points="13">
+        <Description><![CDATA[8 - The Laenia Accord]]></Description>
+      </Entry>
+      <Entry points="13"/>
+      <Entry points="5"/>
+      <Entry points="11"/>
+      <Entry points="20">
+        <Description><![CDATA[11 - Mission of Mercy]]></Description>
+      </Entry>
+      <Entry points="5">
+        <Description><![CDATA[12 - A Better World]]></Description>
+      </Entry>
+      <Entry points="8">
+        <Description><![CDATA[12.1]]></Description>
+      </Entry>
+      <Entry points="9">
+        <Description><![CDATA[13 - Dark Eyes of the Jungle]]></Description>
+      </Entry>
+    </Experience>
+    <AdditionalModels>
+      <Model templateId="Mutations">
+        <Content>
+          <Mutations/>
+        </Content>
+      </Model>
+      <Model templateId="Craft">
+        <Content/>
+      </Model>
+      <Model templateId="Specialties">
+        <Content/>
+      </Model>
+      <Model templateId="Equipment">
+        <Content>
+          <item>
+            <templateId><![CDATA[Natural]]></templateId>
+            <printedStats><![CDATA[Clinch]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Superheavy Plate (Artifact)]]></templateId>
+            <material><![CDATA[Orichalcum]]></material>
+            <printedStats><![CDATA[Armour]]></printedStats>
+            <printedStats><![CDATA[Artifact.FullyAttuned]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Wood Dragon Claw (Offensive)]]></templateId>
+            <printedStats><![CDATA[Close]]></printedStats>
+          </item>
+          <item>
+            <templateId><![CDATA[Wood Dragon Claw (Defensive)]]></templateId>
+            <printedStats><![CDATA[Close]]></printedStats>
+          </item>
+        </Content>
+      </Model>
+      <Model templateId="Linguistics">
+        <Content>
+          <linguistics>
+            <language><![CDATA[Foresttongue]]></language>
+            <language><![CDATA[OldRealm]]></language>
+          </linguistics>
+        </Content>
+      </Model>
+      <Model templateId="Intimacies">
+        <Content>
+          <Intimacies>
+            <Intimacy name="Nautre" complete="true">
+              <Trait creationValue="3"/>
+            </Intimacy>
+          </Intimacies>
+        </Content>
+      </Model>
+      <Model templateId="SolarVirtueFlaw">
+        <Content>
+          <VirtueFlaw>
+            <RootVirtue name="Conviction"/>
+            <Limit creationValue="0"/>
+          </VirtueFlaw>
+        </Content>
+      </Model>
+    </AdditionalModels>
+  </Statistics>
+</ExaltedCharacter>
