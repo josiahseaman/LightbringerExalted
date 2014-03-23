@@ -4,6 +4,7 @@ from Character.parsers import AnathemaParser
 def statField():
     return models.IntegerField(default=0)
 
+
 class LightbringerCharacter(models.Model):
     _source_character_sheet = models.CharField(max_length=255)
     name = models.CharField(max_length=255, default="Unnamed")  # May need to be extended for Deathknights

@@ -1,5 +1,7 @@
 from django.test import TestCase
 import unittest
+from Character.models import LightbringerCharacter
+
 
 class CharacterTest(unittest.TestCase):
     from Character.models import LightbringerCharacter
@@ -14,6 +16,11 @@ class CharacterTest(unittest.TestCase):
         self.assertRaises(KeyError, self.c.getStat, 'Computers')
         print("For 'Perception', 'Awareness' Roll", self.c.sumDicePool('Perception', 'Awareness'), "dice")
 
+    def testSaveToDB(self):
+        self.c.save()
+        dbc = LightbringerCharacter.objects.get(id=1)
+        print(dbc)
+        [print(dbc[x]) for x in ['Charisma', 'Presence', 'Survival']]
 
 
 class AnathemaParserTest(unittest.TestCase):

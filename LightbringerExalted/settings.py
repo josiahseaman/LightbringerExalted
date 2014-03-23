@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'crispy_forms',
     'floppyforms',
     'Charms',
+    'Character',
 )
 
 
