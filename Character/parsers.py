@@ -5,7 +5,7 @@ from Character.glossary import *
 
 class AnathemaParser:
     def __init__(self, filename):
-        tree = ElementTree(file='characters/' + filename)
+        tree = ElementTree(file='Character/characters/' + filename)
         self.root = tree.getroot()
         self.sheet = {}
 

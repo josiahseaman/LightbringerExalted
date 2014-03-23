@@ -1,12 +1,27 @@
 from django.test import TestCase
 import unittest
 
+class CharacterTest(unittest.TestCase):
+    from Character.models import LightbringerCharacter
+    c = LightbringerCharacter.create('Willow.ecg')
+
+    def testPrintAttributes(self):
+        print(self.c.name)
+        usefulStats = ['Charisma', 'Presence', 'Survival']
+
+        for stat in usefulStats:
+            print(stat, ":", int(self.c.getStat(stat) or 0))
+        self.assertRaises(KeyError, self.c.getStat, 'Computers')
+        print("For 'Perception', 'Awareness' Roll", self.c.sumDicePool('Perception', 'Awareness'), "dice")
+
+
+
 class AnathemaParserTest(unittest.TestCase):
     from Character.parsers import AnathemaParser
     ap = AnathemaParser('Willow.ecg')
     root = ap.root
 
-    def testPase(self):
+    def testParse(self):
         result = self.ap.parse_to_dictionary()
         expected = {'Appearance': 4,
                     'Archery': 0,
