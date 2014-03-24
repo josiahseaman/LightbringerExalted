@@ -1,4 +1,6 @@
 from django.db import models
+from Character.glossary import ability_list
+
 
 def doubleChoices(*args):
     return tuple([(x,x) for x in args])
@@ -10,7 +12,7 @@ def choiceList(*args):
 class Charm(models.Model):
     name = models.CharField(max_length=255, default='', unique=True)
     ability = models.CharField(max_length=15,
-        choices=doubleChoices('Archery', 'MartialArts', 'Melee', 'Thrown', 'War', 'Integrity', 'Performance', 'Presence', 'Resistance', 'Survival', 'Craft', 'Investigation', 'Lore', 'Medicine', 'Occult', 'Athletics', 'Awareness', 'Dodge', 'Larceny', 'Stealth', 'Bureaucracy', 'Linguistics', 'Ride', 'Sail', 'Socialize'))
+        choices=doubleChoices(*ability_list))
     scope = models.TextField()
     scope_power = models.IntegerField(default=0, choices=((-1,'Trick'), (0, 'Specialty'), (1, 'Ability'), (2, 'Caste Abilities')))
     duration = models.IntegerField(default=0, choices=choiceList('Instant', '5 activations', 'Scene or Dramatic Action', 'Permanent'))

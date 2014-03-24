@@ -42,6 +42,8 @@ sail = 'Sail'
 socialize = 'Socialize'
 limit = 'Limit'
 
+ability_list = [archery, martialarts, melee, thrown, war, integrity, performance, presence, resistance, survival, craft, investigation, lore, medicine, occult, athletics, awareness, dodge, larceny, stealth, bureaucracy, linguistics, ride, sail, socialize]
+
 MA = 'MartialArts'
 #Actions
 attack = 'Attack'
