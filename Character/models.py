@@ -69,9 +69,11 @@ class LightbringerCharacter(models.Model):
         return c
 
     def populate_fields(self, characterDict):
+        print(self._meta.get_all_field_names())
         for key in characterDict:
             try:
-                self._meta.fields[key.lower()] = characterDict[key]
+                setattr(self, key.lower(), characterDict[key])
+                # self._meta.get_field_by_name(key.lower()) = characterDict[key]
             except:
                 print("No match found for: ", key)
         return self

@@ -7,20 +7,21 @@ class CharacterTest(unittest.TestCase):
     from Character.models import LightbringerCharacter
     c = LightbringerCharacter.create('Willow.ecg')
 
-    def testPrintAttributes(self):
-        print(self.c.name)
-        usefulStats = ['Charisma', 'Presence', 'Survival']
-
-        for stat in usefulStats:
-            print(stat, ":", int(self.c.getStat(stat) or 0))
+    def testAttributeValues(self):
+        values = [int(self.c.getStat(stat)) for stat in ['Charisma', 'Presence', 'Survival']]
+        self.assertListEqual(values, [5, 3, 5])
         self.assertRaises(KeyError, self.c.getStat, 'Computers')
-        print("For 'Perception', 'Awareness' Roll", self.c.sumDicePool('Perception', 'Awareness'), "dice")
+        self.assertEqual(self.c.sumDicePool('Perception', 'Awareness'), 8)
+
+    def testStringValues(self):
+        self.assertEqual(self.c.name, 'Willow')
 
     def testSaveToDB(self):
         self.c.save()
         dbc = LightbringerCharacter.objects.get(id=1)
         print(dbc)
-        [print(dbc[x]) for x in ['Charisma', 'Presence', 'Survival']]
+        values = [int(dbc.getStat(stat)) for stat in ['Charisma', 'Presence', 'Survival']]
+        self.assertListEqual(values, [5, 3, 5])
 
 
 class AnathemaParserTest(unittest.TestCase):
