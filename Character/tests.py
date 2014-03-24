@@ -18,11 +18,15 @@ class CharacterTest(unittest.TestCase):
 
     def testSaveToDB(self):
         self.c.save()
-        dbc = LightbringerCharacter.objects.get(id=1)
+        dbc = LightbringerCharacter.objects.filter(name='Willow')[0]
         values = [int(dbc.getStat(stat)) for stat in ['Charisma', 'Presence', 'Survival']]
         self.assertListEqual(values, [5, 3, 5])
         print(dbc.equipment, type(dbc.equipment))
 
+    def testCreateSpecialty(self):
+        self.c.save()
+        dbc = LightbringerCharacter.objects.filter(name='Willow')[0]
+        print(dbc.specialties.all())
 
 class AnathemaParserTest(unittest.TestCase):
     from Character.parsers import AnathemaParser

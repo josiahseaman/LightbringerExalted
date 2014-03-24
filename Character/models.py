@@ -1,6 +1,6 @@
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
-from Character.glossary import ability_list
+from Character import glossary
 from Character.parsers import AnathemaParser
 import Charms.models as CharmModels
 
@@ -10,18 +10,29 @@ def statField():
 
 
 class Specialty(models.Model):
-    ability = models.CharField(max_length=20, choices=CharmModels.doubleChoices(*ability_list))
+    ability = models.CharField(max_length=20, choices=CharmModels.doubleChoices(*glossary.ability_list))
     focus_area = models.CharField(max_length=255, )
     dots = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(3)])
     _character = models.ForeignKey('LightbringerCharacter', related_name='specialties')
 
+    def __str__(self):
+        return "%s: %s %i" % (self.ability, self.focus_area, self.dots)
+
+
+def create_specialties(dictionary, character):
+    for key, value in dictionary.items():
+        s = Specialty(ability=key, focus_area=value[0], dots=value[1], _character=character)
+        s.save()
+        print(s)
+    print("Created %i Specialties for %s" % (len(dictionary), character.name))
+
 
 class LightbringerCharacter(models.Model):
     _source_character_sheet = models.CharField(max_length=255)
-    name = models.CharField(max_length=255, )  # May need to be extended for Deathknights
+    name = models.CharField(max_length=255, )  # May need to be extended for Deathknight names :)
     player = models.CharField(max_length=255, default='NPC')
     concept = models.CharField(max_length=255, default='')
-    type = models.CharField(max_length=255, default='Solar Exalted')
+    type = models.CharField(max_length=255, default='Solar')
     # Attributes
     strength = statField()
     dexterity = statField()
@@ -80,6 +91,8 @@ class LightbringerCharacter(models.Model):
     #'Craft', 'Linguistics' needs special care to get the right one
     languages = models.TextField()
 
+    def __str__(self):
+        return "%s %i" % (self.name, self.id)
 
     @classmethod
     def create(cls, _source_filename=None):
@@ -90,6 +103,8 @@ class LightbringerCharacter(models.Model):
         else:
             raise IOError("I don't know how to parse this file.")
         c = c.populate_fields(character_dict)
+        c.save()
+        create_specialties(character_dict[glossary.specialties], c)
         return c
 
     def populate_fields(self, character_dict):
