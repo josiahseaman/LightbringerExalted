@@ -31,6 +31,7 @@ class CharmForm(ModelForm):
         self.helper.layout = Layout(
             'name',
             'ability',
+            'character_type',
             'scope',
             ButtonArray('scope_power'),
             ButtonArray('duration'),

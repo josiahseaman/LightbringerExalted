@@ -13,6 +13,7 @@ class Charm(models.Model):
     name = models.CharField(max_length=255, default='', unique=True)
     ability = models.CharField(max_length=15,
         choices=doubleChoices(*ability_list))
+    character_type = models.CharField(max_length=255, default='Solar', choices=(('Solar', 'Solar'), ))
     scope = models.TextField()
     scope_power = models.IntegerField(default=0, choices=((-1,'Trick'), (0, 'Specialty'), (1, 'Ability'), (2, 'Caste Abilities')))
     duration = models.IntegerField(default=0, choices=choiceList('Instant', '5 activations', 'Scene or Dramatic Action', 'Permanent'))
