@@ -49,7 +49,6 @@ class CharmForm(ModelForm):
                     ButtonArray('weakness'),
                     ButtonArray('narrative_benefit'),
                     ButtonArray('ally_buff'),
-                    ButtonArray('counterattack'),
                     InlineCheckboxes('keywords'),
                     css_class='collapse'
             )),

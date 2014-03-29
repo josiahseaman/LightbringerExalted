@@ -20,8 +20,9 @@ class Charm(models.Model):
     magnitude = models.IntegerField(default=0, choices=choiceList('Single', '5 targets', 'Magnitude 3', 'Nation', 'Direction'))
     dice_bonus = models.IntegerField(default=0, choices=choiceList('None', 'Augment (+3 dice)', 'Success Doubler', 'Perfect'))
     negation = models.IntegerField(default=0, choices=choiceList('None', 'Negate Penalties', 'Negate Requirement', 'Negate Normal Defense'))
-    negation_detail = models.CharField(max_length=255, blank=True, null=True)
-    speed_boost = models.CharField(max_length=255, default='None', choices=doubleChoices('None', 'Simple -> Reflexive', 'Dramatic Action -> Simple', 'Days -> Dramatic Action', 'Months -> Days'))
+    negation_detail = models.CharField(max_length=255, blank=True)
+    speed_boost = models.CharField(max_length=255, blank=True,
+                                   default='', choices=doubleChoices('Simple -> Reflexive', 'Dramatic Action -> Simple', 'Days -> Dramatic Action', 'Months -> Days'))
     unnatural_mental_influence = models.IntegerField(default=0,
                                                      choices=choiceList('None', 'Compulsion: Target resists w/ 1WP',
                                                                         'Intimacy: Target resists w/ 3WP (1wp to activate)',
@@ -30,13 +31,11 @@ class Charm(models.Model):
                                                     db_column='additional_willpower_purchases')
     #other traits
     weakness = models.IntegerField(default=0, choices=((0, 'None'),
-                                                       (-1, 'Charm is easy to render Ineffective or Hard to Invoke  (Easily Overlooked, Counter Attacks)'),
+                                                       (-1, 'Charm Requirement is easy to Byapss or Hard to Invoke  (Easily Overlooked, Counter Attacks)'),
                                                        (-2, 'Charm constrains the characters Available Actions (Bloodthirsty Sword Dancer)')))
     narrative_benefit = models.IntegerField(default=0, choices=choiceList(0, 1, 2),
                                             help_text="modifiers that don't fit within the usual system (Ghost-Eating)")
     ally_buff = models.IntegerField(default=0, choices=choiceList('Self', 'Ally gets Charm Benefits', 'Gain Supernatural Powers'))
-    counterattack = models.IntegerField(default=0, choices=((0, 'Normal'), (1, '+1 success per attack received'), (2, 'Counterattack')),
-                                        help_text='Enables a DV 0 attack on the attacker when your turn comes up')#TODO: delete this field, add keyword
     #Keywords
     keywords = models.CharField(max_length=255, default='', blank=True, null=True,
                                 choices=doubleChoices('Crippling', 'Form-type', 'Holy', 'Knockback',
@@ -52,7 +51,6 @@ class Charm(models.Model):
                            'unnatural_mental_influence', 'narrative_benefit', 'ally_buff', 'keywords']:
             value = self.__dict__[field_name]
             if value:  #This trait is used
-                # label = self._meta.fields[field_name].choices
                 traits_used[field_name] = value
         return traits_used
 
