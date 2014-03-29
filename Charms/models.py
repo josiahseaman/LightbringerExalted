@@ -21,7 +21,7 @@ class Charm(models.Model):
     dice_bonus = models.IntegerField(default=0, choices=choiceList('None', 'Augment (+3 dice)', 'Success Doubler', 'Perfect'))
     negation = models.IntegerField(default=0, choices=choiceList('None', 'Negate Penalties', 'Negate Requirement', 'Negate Normal Defense'))
     negation_detail = models.CharField(max_length=255, blank=True, null=True)
-    speed_boost = models.CharField(max_length=255, default='None', choices=doubleChoices('None', 'Simple ⇒ Reflexive', 'Dramatic Action ⇒ Simple', 'Days ⇒ Dramatic Action', 'Months ⇒ Days'))
+    speed_boost = models.CharField(max_length=255, default='None', choices=doubleChoices('None', 'Simple -> Reflexive', 'Dramatic Action -> Simple', 'Days -> Dramatic Action', 'Months -> Days'))
     unnatural_mental_influence = models.IntegerField(default=0,
                                                      choices=choiceList('None', 'Compulsion: Target resists w/ 1WP',
                                                                         'Intimacy: Target resists w/ 3WP (1wp to activate)',
@@ -40,8 +40,8 @@ class Charm(models.Model):
     #Keywords
     keywords = models.CharField(max_length=255, default='', blank=True, null=True,
                                 choices=doubleChoices('Crippling', 'Form-type', 'Holy', 'Knockback',
-                                                       'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness', 'Surprise'
-                                                       'Touch', 'Training'))
+                                                       'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness',
+                                                        'Surprise', 'Touch', 'Training'))
     #  'Stackable', only had 6 uses in the core book. 1 was unclear, 2 were unnecessary and the remainder could be modeled by 5x targets
 
 
