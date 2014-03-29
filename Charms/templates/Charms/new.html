@@ -6,4 +6,7 @@
 <h1>{{ title }}</h1>
     {% crispy form %}
 
+{% if summary %}
+    <footer><strong>Summary: </strong>{{ summary }}</footer>
+{% endif %}
 {% endblock %}

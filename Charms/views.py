@@ -39,6 +39,7 @@ def edit_charm(request, primary_key):
     context = basic_context()
     context['form'] = initialized_form
     context['title'] = "Edit an Existing Charm"
+    context['summary'] = str(model)
     return render(request, 'Charms/new.html', context)
 
 

@@ -74,3 +74,7 @@ body>section {
 textarea.form-control {
     height: 40px;
 }
+
+footer {
+    margin-top:10px;
+}
