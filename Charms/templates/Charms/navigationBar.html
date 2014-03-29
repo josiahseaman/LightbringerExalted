@@ -3,7 +3,11 @@
 {% block main %}
     <nav>
         <ul id="setupMenu">
-            <li><a href="/Charm/new/">Create a new Charm</a></li>
+            <li><a href="/Charm/new/">Create a new Charm</a>
+            <ul>{% for charm in charms %}
+                <li><a href="/Charm/{{ charm.id }}/">{{ charm.name }}</a></li>
+            {% endfor %}
+            </ul></li>
         </ul>
     </nav>
 <section>

@@ -4,6 +4,8 @@ from django.shortcuts import render, redirect, get_object_or_404
 from Charms.forms import CharmForm
 from Charms.models import Charm
 
+def basic_context():
+    return {'charms': Charm.objects.all()}
 
 def save_new_instance(initialized_form, request):
     model_instance = initialized_form.save()  # write to database
@@ -23,8 +25,9 @@ def new_form(request, initialized_form, context):
 
 def new_charm(request):
     initialized_form = CharmForm(request.POST or None)
-    context = {'form': initialized_form,
-               'title': 'Describe a Charm with Traits'}
+    context = basic_context()
+    context['form'] = initialized_form
+    context['title'] = 'Describe a Charm with Traits'
     return new_form(request, initialized_form, context)
 
 
@@ -33,8 +36,9 @@ def edit_charm(request, primary_key):
     initialized_form = CharmForm(request.POST or None, instance=model)
     if initialized_form.is_valid() and request.method == 'POST':
         initialized_form.save()  # write instance updates to database
-    context = {'form': initialized_form,
-               'title': "Edit an Existing Charm"}
+    context = basic_context()
+    context['form'] = initialized_form
+    context['title'] = "Edit an Existing Charm"
     return render(request, 'Charms/new.html', context)
 
 

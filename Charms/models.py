@@ -38,9 +38,9 @@ class Charm(models.Model):
     counterattack = models.IntegerField(default=0, choices=((0, 'Normal'), (1, '+1 success per attack received'), (2, 'Counterattack')),
                                         help_text='Enables a DV 0 attack on the attacker when your turn comes up')
     #Keywords
-    keywords = models.CharField(max_length=255, default='',
+    keywords = models.CharField(max_length=255, default='', blank=True, null=True,
                                 choices=doubleChoices('Crippling', 'Form-type', 'Holy', 'Knockback',
-                                                       'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness',
+                                                       'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness', 'Surprise'
                                                        'Touch', 'Training'))
     #  'Stackable', only had 6 uses in the core book. 1 was unclear, 2 were unnecessary and the remainder could be modeled by 5x targets
 
