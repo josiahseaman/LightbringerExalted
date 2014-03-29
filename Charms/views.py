@@ -1,3 +1,4 @@
+from django.core.exceptions import ObjectDoesNotExist
 from django.core.serializers import json
 from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
@@ -32,14 +33,17 @@ def new_charm(request):
 
 
 def edit_charm(request, primary_key):
-    model = get_object_or_404(Charm, pk=primary_key)
-    initialized_form = CharmForm(request.POST or None, instance=model)
+    try:
+        existing_charm = Charm.objects.get(pk=primary_key)
+    except ObjectDoesNotExist:
+        return redirect('/Charm/new/')
+    initialized_form = CharmForm(request.POST or None, instance=existing_charm)
     if initialized_form.is_valid() and request.method == 'POST':
         initialized_form.save()  # write instance updates to database
     context = basic_context()
     context['form'] = initialized_form
     context['title'] = "Edit an Existing Charm"
-    context['summary'] = str(model)
+    context['summary'] = str(existing_charm)
     return render(request, 'Charms/new.html', context)
 
 
