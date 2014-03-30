@@ -4,6 +4,7 @@ static/*
 media/*
 
 *.sqlite3
+LightbringerExalted/static/vendor
 
 #################
 ## PyCharm
