@@ -1,11 +1,24 @@
 from django.test import TestCase
 import unittest
+from Character import glossary
 from Character.models import LightbringerCharacter
 
 
 class CharacterTest(unittest.TestCase):
     from Character.models import LightbringerCharacter
     c = LightbringerCharacter.create('Willow.ecg')
+    blankC = LightbringerCharacter()
+
+    def testAbilityCreation(self):
+        self.blankC.create_ability_list()
+        self.assertEqual(self.blankC, self.blankC.Larceny.character)
+        for ability in glossary.ability_list:
+            self.assertTrue(ability in self.blankC.__dict__.keys, ability + " not attached to character sheet")
+
+    def test_set_stat(self):
+        self.blankC.set_stat('Stealth', character_dict={'Stealth':4, str(glossary.specialties):{'Stealth':('Corners',2)}})
+        self.assertEqual(self.blankC.Stealth.dots, 4)
+        self.assertEqual(self.blankC.Stealth.specialties.objects.all()[0].dots, 2)
 
     def testAttributeValues(self):
         values = [int(self.c.getStat(stat)) for stat in ['Charisma', 'Presence', 'Survival']]
