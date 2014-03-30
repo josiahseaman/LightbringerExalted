@@ -9,3 +9,8 @@ The contents of the LightbringerExalted project are released under the Apache Op
 
 Icons from the Noun Project:
     Compass Rose by Proletkult Graphik from The Noun Project
+
+
+## Dependancies
+-`pip install django-crispy-forms`
+-`pip install tastypie`
