@@ -9,3 +9,16 @@ The contents of the LightbringerExalted project are released under the Apache Op
 
 Icons from the Noun Project:
     Compass Rose by Proletkult Graphik from The Noun Project
+
+Installation instructions:
+Install pip from http://pip.readthedocs.org/en/latest/installing.html
+Then in a terminal:
+pip install django
+pip install django-floppyforms
+pip install django-crispy-forms
+pip install django-extras
+pip install django-debug-toolbar
+pip install south
+
+Change directories to the Lightbringer root and run with:
+python manage.py runserver
