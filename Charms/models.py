@@ -9,6 +9,7 @@ def choiceList(*args):
     return tuple(enumerate(args))
 
 
+
 class Charm(models.Model):
     name = models.CharField(max_length=255, default='', unique=True)
     ability = models.CharField(max_length=15,
@@ -56,7 +57,5 @@ class Charm(models.Model):
 
     def pretty_active_traits(self):
         d = self.active_traits()
-        representations = []
-        for k, v in d.items():
-            representations.append("%s: %s" %(k, v))
+        representations = ["%s: %s" %(k, v) for k, v in d.items()]
         return ", ".join(representations)

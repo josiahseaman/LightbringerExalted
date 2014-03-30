@@ -9,14 +9,28 @@ def statField():
     return models.IntegerField(default=0)
 
 
+class Ability(models.Model):
+    name = models.CharField(max_length=50, )
+    description = models.TextField()
+    def __str__(self):
+        return self.name
+
+
+class CharacterAbility(models.Model):
+    ability = models.ForeignKey(Ability)
+    dots = models.IntegerField(default=0)
+    mastery = models.IntegerField(default=0)
+    character = models.ForeignKey('LightbringerCharacter', related_name='abilities')
+    def __str__(self):
+        return "%s: %i" % (self.ability, self.dots)
+
+
 class Specialty(models.Model):
-    ability = models.CharField(max_length=20, choices=CharmModels.doubleChoices(*glossary.ability_list))
+    ability = models.ForeignKey(CharacterAbility, related_name='specialties')
     focus_area = models.CharField(max_length=255, )
     dots = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(3)])
-    _character = models.ForeignKey('LightbringerCharacter', related_name='specialties')
-
     def __str__(self):
-        return "%s: %s %i" % (self.ability, self.focus_area, self.dots)
+        return "%s (%s) %i" % (self.ability, self.focus_area, self.dots)
 
 
 def create_specialties(dictionary, character):
