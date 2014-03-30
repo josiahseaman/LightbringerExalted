@@ -5,8 +5,15 @@ from django.shortcuts import render, redirect, get_object_or_404
 from Charms.forms import CharmForm
 from Charms.models import Charm
 
+
+def list_charms_by_ability():
+    Charm.objects.all()
+# from django.db.models import Count
+# pubs = Publisher.objects.annotate(num_books=Count('book'))
+
+
 def basic_context():
-    return {'charms': Charm.objects.all()}
+    return {'charms': list_charms_by_ability()}
 
 def save_new_instance(initialized_form, request):
     model_instance = initialized_form.save()  # write to database
