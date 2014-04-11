@@ -32,8 +32,7 @@ class CharmForm(ModelForm):
             'name',
             'ability',
             'character_type',
-            'scope',
-            ButtonArray('scope_power'),
+            'applicability',
             ButtonArray('duration'),
             ButtonArray('magnitude'),
             ButtonArray('dice_bonus'),
@@ -46,6 +45,7 @@ class CharmForm(ModelForm):
             ButtonArray('speed_boost'),
             Accordion(
                 AccordionGroup('Other Traits',
+                    ButtonArray('narrowness'),
                     ButtonArray('weakness'),
                     ButtonArray('narrative_benefit'),
                     ButtonArray('ally_buff'),
