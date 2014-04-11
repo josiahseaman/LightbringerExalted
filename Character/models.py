@@ -20,7 +20,7 @@ class CharacterAbility(models.Model):
     ability = models.ForeignKey(Ability)
     dots = models.IntegerField(default=0)
     mastery = models.IntegerField(default=0)
-    character = models.ForeignKey('LightbringerCharacter', related_name=ability.name)
+    character = models.OneToOneField('LightbringerCharacter', related_name=str(ability.name))
     def __str__(self):
         return "%s: %i" % (self.ability, self.dots)
 
@@ -94,6 +94,7 @@ class LightbringerCharacter(models.Model):
         for skill in abilities:
             ca = CharacterAbility(ability=skill, character=self)
             # Need to set related name?
+            ca.save()
 
     def populate_fields(self, character_dict):
         for key in character_dict:
@@ -109,7 +110,7 @@ class LightbringerCharacter(models.Model):
 
     def set_stat(self, stat_name, character_dict):
         dots = character_dict[stat_name]
-        stat = self.__dict__[stat_name.lower()]
+        stat = getattr(self, stat_name)
         stat.dots = dots
         stat.save()
         specialties = character_dict[glossary.specialties]
@@ -121,7 +122,7 @@ class LightbringerCharacter(models.Model):
 
 
     def getStat(self, statName):
-        return self.__dict__[statName.lower()]
+        return self.__dict__[statName]
         # return self._meta.fields[statName.lower()]
 
     def __getitem__(self, item):
