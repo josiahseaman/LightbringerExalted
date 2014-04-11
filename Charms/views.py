@@ -7,7 +7,7 @@ from Charms.models import Charm
 
 
 def list_charms_by_ability():
-    Charm.objects.all()
+    return Charm.objects.all()
 # from django.db.models import Count
 # pubs = Publisher.objects.annotate(num_books=Count('book'))
 
