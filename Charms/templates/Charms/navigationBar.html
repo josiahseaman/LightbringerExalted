@@ -5,7 +5,7 @@
         <ul id="setupMenu">
             <li><a href="/Charm/new/">Create a new Charm</a>
             <ul>{% for charm in charms %}
-                <li><a href="/Charm/{{ charm.id }}/">{{ charm.name }}</a></li>
+                <li ability="{{charm.ability}}"><a href="/Charm/{{ charm.id }}/">{{ charm.name }}</a></li>
             {% endfor %}
             </ul></li>
         </ul>
