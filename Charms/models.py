@@ -11,7 +11,7 @@ def choiceList(*args):
 
 
 class Charm(models.Model):
-    name = models.CharField(max_length=255, default='', unique=True)
+    name = models.CharField(max_length=255, default='')
     ability = models.CharField(max_length=15,
         choices=doubleChoices(*ability_list))
     character_type = models.CharField(max_length=255, default='Solar', choices=(('Solar', 'Solar'), ))
