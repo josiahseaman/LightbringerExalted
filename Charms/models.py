@@ -9,16 +9,16 @@ def choiceList(*args):
     return tuple(enumerate(args))
 
 
+
 class Charm(models.Model):
-    name = models.CharField(max_length=255, default='', unique=True)
+    name = models.CharField(max_length=255, default='') # Removed unique name requirement from Charms because the same charm can be copied and upgraded many times.  Versioning will be handled by the filter.
     ability = models.CharField(max_length=15,
         choices=doubleChoices(*ability_list))
     character_type = models.CharField(max_length=255, default='Solar', choices=(('Solar', 'Solar'), ))
-    scope = models.TextField()
-    scope_power = models.IntegerField(default=0, choices=((-1,'Trick'), (0, 'Specialty'), (1, 'Ability'), (2, 'Caste Abilities')))
+    applicability = models.TextField()
     duration = models.IntegerField(default=0, choices=choiceList('Instant', '5 activations', 'Scene or Dramatic Action', 'Permanent'))
     magnitude = models.IntegerField(default=0, choices=choiceList('Single', '5 targets', 'Magnitude 3', 'Nation', 'Direction'))
-    dice_bonus = models.IntegerField(default=0, choices=choiceList('None', 'Augment (+3 dice)', 'Success Doubler', 'Perfect'))
+    dice_bonus = models.IntegerField(default=0, choices=choiceList('None', 'Augment (+3 dice)', 'Success Doubler', 'Perfect (Specialty)', 'Perfect (Ability)'))
     negation = models.IntegerField(default=0, choices=choiceList('None', 'Negate Penalties', 'Negate Requirement', 'Negate Normal Defense'))
     negation_detail = models.CharField(max_length=255, blank=True)
     speed_boost = models.CharField(max_length=255, blank=True,
@@ -30,20 +30,20 @@ class Charm(models.Model):
     extra_willpower_to_resist = models.IntegerField(default=0, choices=choiceList('0 WP', '+2 WP (1wp to activate)', '+4 WP (2wp to activate)'),
                                                     db_column='additional_willpower_purchases')
     #other traits
+    narrowness = models.IntegerField(default=0, choices=((0, 'Specialty'), (-1,'Trick'), (-2, 'Once per Arc')))
     weakness = models.IntegerField(default=0, choices=((0, 'None'),
                                                        (-1, 'Charm Requirement is easy to Byapss or Hard to Invoke  (Easily Overlooked, Counter Attacks)'),
                                                        (-2, 'Charm constrains the characters Available Actions (Bloodthirsty Sword Dancer)')))
     narrative_benefit = models.IntegerField(default=0, choices=choiceList(0, 1, 2),
                                             help_text="modifiers that don't fit within the usual system (Ghost-Eating)")
     ally_buff = models.IntegerField(default=0, choices=choiceList('Self', 'Ally gets Charm Benefits', 'Gain Supernatural Powers'))
-    #Keywords
     keywords = models.CharField(max_length=255, default='', blank=True, null=True,
                                 choices=doubleChoices('Crippling', 'Form-type', 'Holy', 'Knockback',
                                                        'Obvious', 'Peircing', 'Poison', 'Shaping', 'Sickness',
                                                         'Surprise', 'Touch', 'Training'))
 
     def __str__(self):
-        return "%s: %s.  %s" % (self.name, self.scope, self.pretty_active_traits())
+        return "%s: %s.  %s" % (self.name, self.applicability, self.pretty_active_traits())
 
     def active_traits(self):
         traits_used = {}
@@ -56,7 +56,5 @@ class Charm(models.Model):
 
     def pretty_active_traits(self):
         d = self.active_traits()
-        representations = []
-        for k, v in d.items():
-            representations.append("%s: %s" %(k, v))
+        representations = ["%s: %s" %(k, v) for k, v in d.items()]
         return ", ".join(representations)

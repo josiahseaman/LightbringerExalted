@@ -9,22 +9,28 @@ def statField():
     return models.IntegerField(default=0)
 
 
+class Ability(models.Model):
+    name = models.CharField(max_length=50, )
+    description = models.TextField()
+    def __str__(self):
+        return self.name
+
+
+class CharacterAbility(models.Model):
+    ability = models.ForeignKey(Ability)
+    dots = models.IntegerField(default=0)
+    mastery = models.IntegerField(default=0)
+    character = models.OneToOneField('LightbringerCharacter', related_name=str(ability.name))
+    def __str__(self):
+        return "%s: %i" % (self.ability, self.dots)
+
+
 class Specialty(models.Model):
-    ability = models.CharField(max_length=20, choices=CharmModels.doubleChoices(*glossary.ability_list))
+    ability = models.ForeignKey(CharacterAbility, related_name='specialties')
     focus_area = models.CharField(max_length=255, )
     dots = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(3)])
-    _character = models.ForeignKey('LightbringerCharacter', related_name='specialties')
-
     def __str__(self):
-        return "%s: %s %i" % (self.ability, self.focus_area, self.dots)
-
-
-def create_specialties(dictionary, character):
-    for key, value in dictionary.items():
-        s = Specialty(ability=key, focus_area=value[0], dots=value[1], _character=character)
-        s.save()
-        print(s)
-    print("Created %i Specialties for %s" % (len(dictionary), character.name))
+        return "%s (%s) %i" % (self.ability, self.focus_area, self.dots)
 
 
 class LightbringerCharacter(models.Model):
@@ -44,32 +50,8 @@ class LightbringerCharacter(models.Model):
     perception = statField()
     intelligence = statField()
     wits = statField()
-    # Abilities
-    archery = statField()
-    martialarts = statField()
-    melee = statField()
-    thrown = statField()
-    war = statField()
-    integrity = statField()
-    performance = statField()
-    presence = statField()
-    resistance = statField()
-    survival = statField()
-    craft = statField()
-    investigation = statField()
-    lore = statField()
-    medicine = statField()
-    occult = statField()
-    athletics = statField()
-    awareness = statField()
-    dodge = statField()
-    larceny = statField()
-    stealth = statField()
-    bureaucracy = statField()
-    linguistics = statField()
-    ride = statField()
-    sail = statField()
-    socialize = statField()
+    # Abilities are foreignkeyed
+
     # Other stats
     willpower = statField()
     essence = statField()
@@ -100,24 +82,47 @@ class LightbringerCharacter(models.Model):
         if '.ecg' in _source_filename:
             parser = AnathemaParser(_source_filename)
             character_dict = parser.parse_to_dictionary()
+            c.save()
         else:
             raise IOError("I don't know how to parse this file.")
+        c.create_ability_list()
         c = c.populate_fields(character_dict)
-        c.save()
-        create_specialties(character_dict[glossary.specialties], c)
         return c
+
+    def create_ability_list(self):
+        abilities = Ability.objects.all()
+        for skill in abilities:
+            ca = CharacterAbility(ability=skill, character=self)
+            # Need to set related name?
+            ca.save()
 
     def populate_fields(self, character_dict):
         for key in character_dict:
             try:
                 setattr(self, key.lower(), character_dict[key])
             except:
-                print("No match found for: ", key)
+                try:
+                    self.set_stat(key, character_dict)
+                except:
+                    print("No match found for: ", key)
         print(self.equipment)
         return self
 
+    def set_stat(self, stat_name, character_dict):
+        dots = character_dict[stat_name]
+        stat = getattr(self, stat_name)
+        stat.dots = dots
+        stat.save()
+        specialties = character_dict[glossary.specialties]
+        if stat_name in specialties.keys():
+            value = specialties[stat_name]
+            s = Specialty(ability=stat, focus_area=value[0], dots=value[1])
+            s.save()
+            print(s)
+
+
     def getStat(self, statName):
-        return self.__dict__[statName.lower()]
+        return self.__dict__[statName]
         # return self._meta.fields[statName.lower()]
 
     def __getitem__(self, item):
