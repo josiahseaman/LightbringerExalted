@@ -2,18 +2,14 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.core.serializers import json
 from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
+from Character.models import Ability
 from Charms.forms import CharmForm
 from Charms.models import Charm
 
 
-def list_charms_by_ability():
-    return Charm.objects.all()
-# from django.db.models import Count
-# pubs = Publisher.objects.annotate(num_books=Count('book'))
-
-
 def basic_context():
-    return {'charms': list_charms_by_ability()}
+    return {'charms': Charm.objects.all(),
+            'abilities': Ability.objects.all()}  # Abilities could be reduced to a list of names
 
 def save_new_instance(initialized_form, request):
     model_instance = initialized_form.save()  # write to database

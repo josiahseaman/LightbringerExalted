@@ -11,7 +11,7 @@ def choiceList(*args):
 
 
 class Charm(models.Model):
-    name = models.CharField(max_length=255, default='')
+    name = models.CharField(max_length=255, default='') # Removed unique name requirement from Charms because the same charm can be copied and upgraded many times.  Versioning will be handled by the filter.
     ability = models.CharField(max_length=15,
         choices=doubleChoices(*ability_list))
     character_type = models.CharField(max_length=255, default='Solar', choices=(('Solar', 'Solar'), ))
