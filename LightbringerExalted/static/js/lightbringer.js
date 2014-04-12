@@ -18,7 +18,6 @@ $(function(){
         var required_value = $(this).attr('data-required-value')
 
         $('body').on('change', controller, function(){
-            console.log("Checking for", required_value, "on", $(this))
             if($(this).val() == disabled_value){
                 hide_target.hide()
             }else{
