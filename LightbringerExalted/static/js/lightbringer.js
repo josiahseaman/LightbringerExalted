@@ -8,13 +8,30 @@ $(function(){
     $('[data-toggle-controller]').each(function(){
         var controller = '[name=' + $(this).attr('data-toggle-controller') + ']'
         var hide_target = $(this).parents('.form-group')
-        var disabled_value = $(this).attr('data-disabled-value') || 'True'
-        hide_target.hide()
+        if (hide_target.length == 0){  //Sometimes it's not in a form group
+            hide_target = $(this)
+        }
+        var disabled_value = $(this).attr('data-disabled-value')
+        if (typeof disabled_value !== 'undefined'){
+            hide_target.hide()
+        }
+        var required_value = $(this).attr('data-required-value')
+
         $('body').on('change', controller, function(){
+            console.log("Checking for", required_value, "on", $(this))
             if($(this).val() == disabled_value){
                 hide_target.hide()
             }else{
-                hide_target.show()
+                if (typeof required_value !== 'undefined'){ //required value is specified
+                    if($(this).val() == required_value || $(this).val() == ''){
+                        hide_target.show()
+                    }else{
+                        console.log("Hiding", hide_target)
+                        hide_target.hide()
+                    }
+                }else{
+                    hide_target.show()
+                }
             }
         })
     })

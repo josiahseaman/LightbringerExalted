@@ -3,7 +3,7 @@
 {% block main %}
     <nav>
         <ul id="setupMenu">
-            <select class="select" id="filter_ability">
+            <select class="select" name="filter_ability">
                 <option value="" selected="selected">---------</option>
                 {% for ability in abilities %}
                     <option value="{{ability.name}}">{{ability.name}}</option>
@@ -11,7 +11,7 @@
             </select>
             <li><a href="/Charm/new/">Create a new Charm</a>
             <ul id="charm_list">{% for charm in charms %}
-                <li ability="{{charm.ability}}"><a href="/Charm/{{ charm.id }}/">{{ charm.name }}</a></li>
+                <li data-toggle-controller="filter_ability" data-required-value="{{charm.ability}}"><a href="/Charm/{{ charm.id }}/">{{ charm.name }}</a></li>
             {% endfor %}
             </ul></li>
         </ul>
