@@ -16,7 +16,7 @@ class Charm(models.Model):
         choices=doubleChoices(*ability_list))
     character_type = models.CharField(max_length=255, default='Solar', choices=(('Solar', 'Solar'), ))
     applicability = models.TextField()
-    duration = models.IntegerField(default=0, choices=choiceList('Instant', '5 activations', 'Scene or Dramatic Action', 'Permanent'))
+    duration = models.IntegerField(default=0, choices=choiceList('Instant', '5 activations', 'Sustained or Powerup'))
     magnitude = models.IntegerField(default=0, choices=choiceList('Single', '5 targets', 'Magnitude 3', 'Nation', 'Direction'))
     dice_bonus = models.IntegerField(default=0, choices=choiceList('None', 'Augment (+3 dice)', 'Success Doubler', 'Perfect (Specialty)', 'Perfect (Ability)'))
     negation = models.IntegerField(default=0, choices=choiceList('None', 'Negate Penalties', 'Negate Requirement', 'Negate Normal Defense'))
@@ -27,7 +27,7 @@ class Charm(models.Model):
                                                      choices=choiceList('None', 'Compulsion: Target resists w/ 1WP',
                                                                         'Intimacy: Target resists w/ 3WP (1wp to activate)',
                                                                         'Servitude Target resists w/ 5WP (2wp to activate)'))
-    extra_willpower_to_resist = models.IntegerField(default=0, choices=choiceList('0 WP', '+2 WP (1wp to activate)', '+4 WP (2wp to activate)'),
+    extra_willpower_to_resist = models.IntegerField(default=0, choices=choiceList('0 WP', '+2 WP (+1wp to activate)', '+4 WP (+2wp to activate)'),
                                                     db_column='additional_willpower_purchases')
     #other traits
     narrowness = models.IntegerField(default=0, choices=((0, 'Specialty'), (-1,'Trick'), (-2, 'Once per Arc')))
