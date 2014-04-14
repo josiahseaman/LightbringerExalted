@@ -5,6 +5,7 @@ from Character.models import LightbringerCharacter
 
 
 class CharacterTest(unittest.TestCase):
+    # Change to a TransactionTestCase
     from Character.models import LightbringerCharacter
     c = LightbringerCharacter.create('Willow.ecg')
     blankC = LightbringerCharacter()
