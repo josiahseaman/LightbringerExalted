@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
-
+"""For Dynamically adding new items to a list of forms:
+http://stackoverflow.com/questions/4950627/django-how-to-add-an-extra-form-to-a-formset-after-it-has-been-constructed"""
 # def new_chararacter(request):
 #     initialized_form = CharmForm(request.POST or None)
 #     context = {'form': initialized_form,
