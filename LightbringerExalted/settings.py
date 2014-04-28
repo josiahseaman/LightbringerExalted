@@ -100,3 +100,5 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR + '/static/'
 STATICFILES_DIRS = (BASE_DIR + '/LightbringerExalted/static/', )
 STATIC_URL = '/static/'
+
+TEMPLATE_DIRS = (BASE_DIR + '/LightbringerExalted/templates/', )

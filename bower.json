@@ -21,6 +21,12 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.15"
+    "uikit": "~2.5.0",
+    "jquery": "2.1.0",
+    "less": "~1.7.0",
+"backbone": "~1.1.2"
+  },
+  "resolutions": {
+    "jquery": "2.1.0"
   }
 }
