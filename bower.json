@@ -24,7 +24,9 @@
     "uikit": "~2.5.0",
     "jquery": "2.1.0",
     "less": "~1.7.0",
-"backbone": "~1.1.2"
+    "backbone": "~1.1.2",
+    "requirejs": "~2.1.11",
+    "requirejs-hbs": "http://github.com/khalsah/require-hbs.git#b74af44ce1770c2f1f4d3100297f3c14636a6241"
   },
   "resolutions": {
     "jquery": "2.1.0"
